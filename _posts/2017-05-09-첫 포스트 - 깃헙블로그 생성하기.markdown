@@ -1,0 +1,54 @@
+---
+layout: post
+title: 깃헙블로그 생성
+tag: web
+---
+
+왜 만들었냐?
+
+기록의 필요성을 느꼈기 때문이다.
+
+무엇을 보면서 만들었냐 ?
+
+참고사이트
+- https://brunch.co.kr/@hee072794/39
+- http://jekyllrb-ko.github.io/
+- https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/
+
+어떻게 만들었냐 ?
+
+- jekyll블로그를 로컬에서 실행하기
+
+```
+jekyll serve --watch
+```
+
+블로그를 활용하려면 http://jekyllrb-ko.github.io/docs/home/ 을 꼭 읽어봐야한다.
+
+---
+
+
+- 깃헙 블로그를 만드는 건 쉽다. 근데 테마적용이 어려웠다.
+
+테마를 적용하는데 몇 가지 오류들이 생겨서 애를 먹었고 이 블로그를 보고 해결할 수 있었다.
+
+http://swifteyes.blogspot.kr/2016/12/jekyll-github.html
+
+1. 오류 메세지에 jekyll-paginate가 뜬다면 
+Gemfile 을 열어서 다음과 같이 추가해준다.
+```
+gem "jekyll-paginate"
+```
+
+2. 오류메세지에 다음과 같은 ..Liquid Exception: Could not ...... 내용이 나온다면
+
+Liquid Exception: Could not locate the included file 'icon-github.html' in any of ["/Users/gimseonhong/scarletbreeze@github.com/_includes"]. Ensure it exists in one of those directories and, if it is a symlink, does not point outside your site source. in about.md
+
+about md 파일을 지우면 된다.
+
+3. 연결은 되는데 하얀 빈페이지만 뜬다면 (터미널에 fivicon.뭐가 없다고 계쏙 뜰 것이다.)
+
+로컬저장소 폴더 내 "index.md" 파일을 지우면 된다.
+
+-------- 이렇게 문제를 해결할 수 있었다. --------
+

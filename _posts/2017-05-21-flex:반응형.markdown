@@ -1,0 +1,87 @@
+---
+layout: post
+title: 멋쟁이사자처럼 - flex
+tag: web
+---
+
+지난 번 마무리 짓지 못한 flex에 이어 반응형 웹사이트에 관한 강의 내용을 정리해봤다.
+
+### Flexbox
+①선언 ② 방향 ③ 크기 ④ 정렬
+
+1. 정렬을 할 요소를 가진 부모에게 display:flex만 주면 flexbox 사용 준비  끝
+
+2. 아이템을 어느 방향으로 정렬할지 기준을 정하자 그게 바로 flex-direction: row || column (기본값은 row)
+(flex-direction은 중심축이다!)
+flex-direction과 같은 방향의 축은 main axis
+flex-direction과 반대 방향의 축은 cross axis
+flex-directin에 따라서 방향이 결정된다! 
+
+3. 크기를 유지를 할까? 알아서 유지를 할까?
+flex-wrap
+flex-wrap의 기본값은 nowrap이다. nowrrap은 감싸지 않고 한 줄을 유지하겠다는 뜻이다. 즉 알아서 크기를 줄여서 넣어준다.
+flex-wrap: wrap; ->공간이 모자르면 떨어지게 하는 것 - 즉 기존 값을 유지
+(기존에 400,400,400인 박스 세개가 있었다. nowrap이면 266,266,266으로 알아서 맞춰서 한줄에 들어간다. 그런데 wrap으로 하게 되면, 400,400,그리고 다음 줄에 400이 들어간다.)
+
+4. 정렬
+main axis를 기준으로 정렬 - justify-content,
+cross axis를 기준으로 정렬 - align-items
+
+---
+
+만약 flex;인 상태에서 (row가 기본값) justify-content: center;를 하게 되면 가운데 정렬이 된다.
+
+justify-content: flex-start, flex-end, space-between(between간격을 똑같이 유지), space-around(margin 간격이 같게 배치) 이렇게 사용한다.
+
+align-items(아이템 통째로 움직인다) 
+align-content(개별, 하나하나를 움직인다 justify-content처럼)
+
+사용할 부모에게 display: flex; 주고
+flex-direction: row; 주고
+flex-wrap: wrap;으로 크기 유지할거라고 말해주고
+width:500px;
+height:500px;
+margin : 0 auto; 
+이런 식으로 지정해주면 된다.
+
+예를 들면 중앙정렬
+display:flex; 
+ flex-direction:row; // 기본값
+ flex-wrap: nowrap; // 기본값
+ justify-content:space-between;
+ align-items: center;    
+######order
+아이템의 순서를 바꾸고 싶을 땐, order속성 하나만 바꾸면 끝난다. ex) order: 3;, 
+ 
+### 반응형 웹사이트
+
+- Viewport Meta Tag
+
+- MediaQuery
+
+- Grid System
+
+반응형 웹사이트에서는 위 3가지의 도구가 필요하다.
+viewport Meta Tag랑 MediaQuery는 필수!
+
+그리드시스템 얘기는 깊은 내용이기에 우선, 위 두개만 다루겠다.
+
+반응형 웹을 위한 준비물
+head 요소 내부에 Viewport Meta 태그를 묻지도 말고 따지지도 말고 일단 적어주세요.
+
+ meta:vp 치고 탭! -> 
+
+vh -> viewport height -> 전체 창의 전체 높이를 얘기한다. 즉 화면 전체의 보이는 만큼의 길이를 말한다.
+ 
+아래의 사이트에서 색깔을 참고할 수 있어요!
+http://www.flatuicolorpicker.com/
+
+-Media Query
+@media screen and (max-width: 768px) {...}
+@media screen and (max-width: 769px) {...} and @media screen and (max-width: 991px) {...}
+@media screen and (max-width: 992px) {...}
+@media screen and (max-width: 1200px) {...}
+
+css는 나중에 온 녀석이 앞에 있는 녀석을 덮어버린다.
+
+만드는 것보다 사전 설계가 훨씬 중요한 반응형 웹사이트!

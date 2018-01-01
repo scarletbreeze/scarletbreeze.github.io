@@ -1,0 +1,45 @@
+---
+layout: post
+title: Form
+tag: web
+---
+
+구글을 만들어보자
+
+form 안에 있는 여러 속성들을 이용해보자
+
+- form 안에 있는 속성들을 w3schools에서 찾아보면 좋다
+
+- input은 text, radio, submit을 타입으로 갖을 수 있다.
+
+- radio는 고를 수 있게 조그만 원이 나오며, 하나만 선택 가능 
+
+- submit: 정보들이 서버로 전송된다
+
+- input type들로는 초기화도 있다. 초기화는 원래 있었던 value 값으로 돌아간다.
+
+- Checkbox는 radio와 달리 복수 선택이 가능하다.
+- onclick은 클릭했을 때, 나오는 것이다.
+
+- action은 제출할 때, 어디로 보내는 지에 대한 내용이다. 서버에 있는 어디로 보낼 것인가를 결정한다.  default는 get방식이다. get으로 하게 되면 주소창에 입력한게 나오는 것.
+
+
+(w3schools. 자주 이용하자.)
+
+
+
+```
+<!-- 부트스트랩 CDN은 가져온 상태에서 실습 --> 
+<body>
+    <div class="text-center mt-5">
+    <!--     <img src="https//www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"> -->
+    </div>
+    <div class="container mt-5">
+        <form action="https://www.google.com/search">
+            <div class="form-group">
+                <input type="text" name="q" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="글자를 여기에 적으면 보여요!">
+            </div>
+        </form>
+    </div>
+    
+```

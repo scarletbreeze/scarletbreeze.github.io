@@ -1,0 +1,31 @@
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "http://dh00023.github.io" # the base hostname & protocol for your site
+title: "scarletbreeze의 코딩블로그"
+future: true
+
+# This is used by feed.xml. Uncomment if you want to use it.
+description: "코딩철학 "
+
+gems:
+  - jemoji
+  - jekyll-gist
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "CNAME"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

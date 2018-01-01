@@ -1,0 +1,159 @@
+---
+layout: post
+title: 멋사-보조강의-부트스트랩
+tag: web
+---
+
+멋쟁이 사자처럼 노지승선생님께서 올려주신 부트스트랩 강의를 정리해보았다. 2번 정도 들었는데 선생님 강의;; 최고다.
+
+부트스트랩 - 장점 :개발 속도 빠름, 브라우저 호환성, big 커뮤니티(무료 템플릿 많음)
+
+부트스트랩 단점
+- 불필요한 코드가 너무 많음 - 속도 저하
+customize를 할 것이 많으면 코드 Override 해야함 
+
+- 속도 저하 - 비효율적
+근데 customize를 안하면 누가 봐도 bootstrap을 쓴 게 티가 남
+
+- 부트스트랩 Basic 
+Actual 4 Projects
+
+약속 - 시킨대로만 쓴다. / 부트스트랩 코드를 고치지 않는다
+
+script는 body의 가장 마지막 요소에 넣어 주는 것이 좋다.
+
+#### 그리드 시스템 1탄, 칸 맞추기
+그리드란 디자이너들의 작업을 돕기 위해 그려 놓은 상상의 가로, 세로 선을 말한다. 즉 그리드시스템이란 선을 규칙적으로 배치해서 만든 시스템이다.
+
+네 가지 개념을 숙지해야 한다.
+**container / row / gutter / column**
+
+container는 그리드 시스템이 적용되는 범위를 나타낸다.
+row는 1줄을 말한다. column은 1칸을 말한다.
+
+gutter는 여백이라는 뜻으로, column과 column을 여백을 줘서 배치시키겠다는 뜻이다. 
+
+부트스트랩 자체가 12개의 칼럼을 쓰고 있다. 12가 그리고 웹 디자인에서 매직넘버 - 2,3,4의 배수이기 때문
+
+그리드 시스템을 만들 때 사고의 순서는
+1. container- 그리드가 사용되는 범위를 지정한다
+2. row - 1줄을 만든다 총 12개의 column이 들어갈 수 있다.
+3. column - 1칸을 만든다
+
+==주의해야할 사항: 만들 콘텐츠에 bootstrap 클래스를 바로 붙이면 안된다. 즉 두 개 클래스를 겹쳐쓰지 말라는 거다.
+사용할 때, .container>.row>.col을 해준 뒤에 그 다음에 만들려는 콘텐츠를 넣는다.  ==
+
+## 그리드시스템 2탄, 배치
+1. row에 클래스를 붙여서 한번에 정렬하기!
+
+(row가 Flexbox box이다.) 
+.row.justify-content-center - 가로로 가운데 배치
+.row.justify-content-end -가로로 오른쪽 정렬
+.row.align-items-center - 세로로 가운데 배치
+.row,align-items-start - 세로로 위쪽 정렬
+
+등등 row안에 flex 문법을 클래스로 넣으면 된다,
+(row의 flex-direction은 항상 row로 고정되어 있어야 한다. flex-direction 바꾸면 안돼)
+
+2. col에 클래스를 붙여서 이동시키기!
+col의 부모인 row를 통해 한번에 정렬하는 것이 아니라 col에게 클래스를 붙여서 직접 이동시키는 방법이 있다. - 더 정교한 작업 가능
+
+방법은 2가지, 하나는 push,pull 계열, 다른 하나는 offset계열
+push,pull은 그 속성을 쓴 아이만 혼자 이동 왜냐하면 position:relative를 써서 이동하기 때문이다. 
+offset은 margin:left를 써서 이동하기 떄문에 다 같이 밀어버린다.
+
+.push-*-n 왼쪽으로 n개 column만큼 혼자 이동 [position: relative]
+.pull-*-n - 오른쪽으로 n개 column만큼 혼자 이동 [position:relative]
+.offset-*-n - 왼쪽으로 n개 column만큼 다 함께 이동 [margin:left] 
+
+## 그리드 시스템 3탄, 반응
+ breakpoint가 중요하다! breakpoint란 중단점으로, 언제 CSS를 만들지 알려주는 걸 뜻한다.
+ 
+**sm md lg xl** 부트스트랩은 이와 같이 총 4개의 breakpoint를 지정해주고 있다.
+576/768/992/1200
+
+breakpoint가 맘에 안들어도 바꿀 수는 없다. 바꿀수는 있지만 sass라는 툴을 써야하는데, 복잡하다.
+
+예를 들면
+.col-sm-1 min-width:546px
+.col-lg-7 min-width:992px
+.col-10 10칸(화면사이즈와 관계 없이)
+.push-md-4 (min-width:768px) 왼쪽으로 4칸
+.offset-xl-3 (min-width:1200px) 왼쪽으로 전체3칸
+.pull-6 오른쪽으로 6칸
+
+
+## 그리드시스템 4탄, 유틸리티 Sizing & Spacing
+ 굳이 이런 걸 왜 만들었을까? -> 잘 활요앟면 일관성 있는 UI를 만들 수 있기 때문이다.
+ 
+ 이 순서에 따라서 클래스를 만들고 원하는 요소를 붙여주자.
+ ①마진/패딩? ②방향? ③사이즈? ④breakpoint?
+
+① 마진/패딩?
+margin - m / padding - p
+ 
+② 방향
+.top - t
+.bottom - b
+.left - l
+.right - r
+.left .right - x
+.top .bottom - y
+top,right,bottom,left -  없음
+
+③ 사이즈
+통일된 단위값 Spacer를 기준으로 해서 사이즈 정하기 ( 부트스트랩에서 정해준 단위값)
+
+0 - spacer *0
+1 - spacer * 0.25
+2 - spacer * 0.5
+3 - spacer * 1
+4 - spacer * 1.5
+5 - spacer * 3
+
+cf.spacer === 1rem
+rem ==Root,EM,
+
+Root,EM이란 <html> 요소에 설정된 font-size값을 기준으로 한 단위
+글자 그냥 치면 -16px (본문 폰트 크기) 그러면 여기서 1rem = 16px
+
+만약에 글자 크기가 10px이였다면 1rem은 10px 따라서 1rem만큼 패딩값을 줬다고 가정하면 10px 만큼 padding 된다 
+
++ html{font-size: 10px;}
+h1 {
+ font-size:1.6rem;
+ padding: 1rem 2rem 3rem 4rem; 
+}
+
+④ breakpoint 설정
+(sm,md,lg,xl)에 맞게 적용을 시켜주면 된다.
+
+
+## 그리드 시스템 5탄, Color Management
+
+색을 관리하면 일관성 있는 UI를 관리하는데 좋다.
+
+글자색은 text-원하는 색상을 넣어주면 된다.
+
+부트스트랩의 색상은 아래와 같이 지정되어 있다.
+
+![부트스트랩색상.png](https://github.com/scarletbreeze/scarletbreeze.github.io/blob/master/images/%EB%B6%80%ED%8A%B8%EC%8A%A4%ED%8A%B8%EB%9E%A9%EC%83%89%EC%83%81.png?raw=true)
+
+배경색은 bg-원하는 색상을 넣어주면 된다.
+부트스트랩의 배경색상은 아래와 같이 지정되어 있다.
+
+![부트스트랩배경색상.png](https://github.com/scarletbreeze/scarletbreeze.github.io/blob/master/images/%EB%B6%80%ED%8A%B8%EC%8A%A4%ED%8A%B8%EB%9E%A9%EB%B0%B0%EA%B2%BD%EC%83%89%EC%83%81.png?raw=true)
+
+근데 나만의 색상을 지정하고 싶으면? 이건 사실 안돼!
+Bootstrap의 색상값은 !important로 되어 있다. 즉 아무리 바꾸려고 해도 바꿔지지 않는다는 사실! 
+그래서 !important를 이기기 위해서는 !important로 맞대응하면 된다.
+
+아래의 색상은 노지승선생님이 사용하시는 색상이다. 이걸 기본으로 지정해보자!
+
+![나만의 색상코드.png](https://github.com/scarletbreeze/scarletbreeze.github.io/blob/master/images/%EB%82%98%EB%A7%8C%EC%9D%98%20%EC%83%89%EC%83%81%EC%BD%94%EB%93%9C.png?raw=trueg)
+
+
+![나만의 색상코드2.png](https://github.com/scarletbreeze/scarletbreeze.github.io/blob/master/images/%EB%82%98%EB%A7%8C%EC%9D%98%20%EC%83%89%EC%83%81%EC%BD%94%EB%93%9C2.png?raw=true)
+
+이렇게 해주면 지정해주면 된다!!
+
