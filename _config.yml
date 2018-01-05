@@ -1,6 +1,6 @@
 baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "http://dh00023.github.io" # the base hostname & protocol for your site
-title: "scarletbreeze의 코딩블로그"
+url: "http://scarletbreeze.github.io" # the base hostname & protocol for your site
+title: "study"
 future: true
 
 # This is used by feed.xml. Uncomment if you want to use it.

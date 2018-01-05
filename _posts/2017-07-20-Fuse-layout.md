@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Fuse - Layout Basics
 tag: web
 ---

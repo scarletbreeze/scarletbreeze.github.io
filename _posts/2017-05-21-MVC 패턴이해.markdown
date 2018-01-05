@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: MVC 패턴의 이해
 tag: web
 ---

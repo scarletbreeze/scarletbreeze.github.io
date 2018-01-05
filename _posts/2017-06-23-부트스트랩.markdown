@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 멋사-보조강의-부트스트랩
 tag: web
 ---

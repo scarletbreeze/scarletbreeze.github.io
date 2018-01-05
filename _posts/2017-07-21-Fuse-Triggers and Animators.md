@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Fuse- Triggers and Animation
 tag: web
 ---

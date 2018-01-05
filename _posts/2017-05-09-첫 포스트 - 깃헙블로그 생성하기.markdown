@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 깃헙블로그 생성
 tag: web
 ---

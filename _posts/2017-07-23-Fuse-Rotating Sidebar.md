@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Fuse- Rotating Sidebar
 tag: web
 ---

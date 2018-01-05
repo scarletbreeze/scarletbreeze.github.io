@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 멋사-보조강의-CSS선택자올림픽
 tag: web
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: rails nokogiri gem 활용하기
 tag: web
 ---
