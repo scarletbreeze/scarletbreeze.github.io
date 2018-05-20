@@ -4,7 +4,7 @@ title: "study"
 future: true
 
 # This is used by feed.xml. Uncomment if you want to use it.
-description: "코딩철학 "
+description: "코딩철학"
 
 gems:
   - jemoji
