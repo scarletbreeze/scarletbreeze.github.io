@@ -133,9 +133,3 @@ int main()
 
 
 ---
- 
-참고자료 
-
-파이썬으로 웹 크롤러 만들기 (라이언 미첼 지음, 한선용 옮김, 한빛 미디어)
-
-이진석 선생님 강좌 사이트 [nomade](https://www.askcompany.kr/vod/setup/43/)
