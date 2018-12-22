@@ -1,13 +1,13 @@
 ---
-title: git
-permalink: "git/index.html"
+title: react
+permalink: "react/index.html"
 ---
 <h2>git 공부자료</h2>
 <br>
 
 <div class="page-archive">
 {% for post in site.posts %}
-  {% if post.tag == "git"%}
+  {% if post.tag == "react"%}
   {% assign post_month_year = post.date | date: "%B %Y" %}
   {% assign newer_post_month_year = post.next.date | date: "%B %Y" %}
   {% if post_month_year != newer_post_month_year %}
