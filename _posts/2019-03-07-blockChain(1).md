@@ -13,8 +13,10 @@ tag: blockChain
 [블록체인 한번에 이해하기]
 https://homoefficio.github.io/2017/11/19/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%95%9C-%EB%B2%88%EC%97%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/
 
+
 [그래서, 블록체인이 뭔데? (WTF is blockchain?)]
 http://media.fastcampus.co.kr/knowledge/wtf_blockchain_bitcoin/
+
 
 [블록체인 소개 - (2) 블록과 해시함수]
 http://snowdeer.github.io/blockchain/2018/01/06/blockchain-seminar-about-blockchain/
