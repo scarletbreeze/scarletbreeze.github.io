@@ -1,7 +1,7 @@
 ---
 
 title: java ArrayList 예습
-tag: algorithm
+tag: data
 
 ---
 
