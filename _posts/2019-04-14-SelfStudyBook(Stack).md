@@ -15,7 +15,7 @@ tag: algorithm
 
 `sum += num;`
 
-## 연습ㄴ문제 +,\*만 있는 계산기
+## 연습문제 +,\*만 있는 계산기
 
 크게 2가지 방법을 생각할 수 있다.
 
@@ -30,7 +30,8 @@ if(operator == '*')
 	sum += (temp*num);
 else
 	sum += num;
-    
+```
+
 입력된 수식에서 "*" 연산자 앞에 있는 숫자를 찾아 temp에 저장하는 과정에서 처리가 조금 더 필요하겠지만 핵심은 순차적으로 수식을 읽으면서 처리를 할 수 있다는 것이다. 임시변수 temp를 이용하여 수식을 순차적으로 처리하는 프로그램은 직접 작성해보아라.
 
 ## 연습문제, +,*,()만 있는 계산기
@@ -182,6 +183,97 @@ O(n^2)이었던 시간복잡도가 O(n)줄어들었다는 것은 코드만 봐�
 
 
 
+```
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+import java.util.Stack;
+import java.util.StringTokenizer;
+public class Solution {
+	
+	static int T = 10;
+	static int mResult;
+	
+	public static void main(String args[]) throws Exception{
+		Scanner sc = new Scanner(System.in);{
+			for(int t = 1; t <= 10; t++) {
+				int N = Integer.parseInt(sc.nextLine());
+				String s = sc.nextLine();
+				Stack<Character> stack = new Stack<Character>();
+				for(int i = 0; i < N; i++) {
+					char operator = s.charAt(i);
+					 if(operator == '{' || operator == '[' || operator == '(' || operator == '<' ){
+			               stack.push(operator);
+			            }
+			            else{
+			               if(stack.isEmpty()){
+			                  break;
+			               }
+			               char temp = stack.pop();
+			               if(operator == '}'){
+			                  if(temp != '{'){
+			                     break;
+			                  }
+			               }
+			               else if(operator == ']'){
+			                  if(temp != '['){
+			                     break;
+			                  }
+			               }
+			               else if(operator == '>'){
+			                  if(temp != '<'){
+			                     break;
+			                  }
+			               }
+			               else{
+			                  if(temp != '('){
+			                     break;
+			                  }
+			               }
+			                
+			            }
+					 if(i == N - 1 /*&& stack.isEmpty()*/){
+			               mResult = 1;
+			            }
+				}
+				System.out.println("#" + t + " " + mResult);
+		         mResult = 0;
+			}
+		}
+	};
+}
+				
+
+
+```
+
+## 후위 표기법
+
+일반적으로 사용하는 방식 -> 중위 표기법.
+=> 괄호 안을 찾아서 탐색하고, 해당 계산을 먼저 해줘야 한다. 따라서 연산량이 많아져 좋지 않다. 실제로 이를 피하기 위해 후위 표기법을 사용한다.
+
+후위 표기법은 수식을 계산할 떄 특별한 변환이 필요 없이 수식을 앞에서 읽어나가면서 스택에 저장하면 된다는 장정미 있다.
+
+
+스택을 이용하여 바꾸는 방법.
+
+ex) `(3+5) * (4+2)`
+
+(는 넣고, 숫자의 경우 Stack에 넣지 않고 출력한다.
++의 경우 연산 부호 이므로 Stack에 넣는다.
+닫힌 괄호가 나온 경우, 열린 괄호가 나올 떄까지 pop하여 출력한다.
+
+만약, 연산자 우선순위를 고려한다면 단순히 Stack에 Push하는 것이 아니라 Push 하기 전에 자신의 우선 순위 보다 낮은 연산자 일때까지 Pop을 해주어야 한다. 이 점을 주의하여 코딩해보자.
+
+## 3.1 대표문제. 계산기 해결하기
+
+문자열로 이루어진 계산식이 주어질 때 이 계산식을 후위 표기법으로 바꾸어 계산하는 프로글매을 작성하기
+
+후위표기법 -> 스택을 이용하여 계산을 쉽게 한다.
+
+1. 피 연산자를 만나면 스택에 Push 한다.
+2. 연산자를 만나면 필요한 만큼의 피 연산자를 스택에서 Pop하여 연산하고, 연산 결과를 다시 스택에 Push한다.
+3. 수식이 끝나면, 마지막으로 스택을 Pop하여 출력한다.
 
 
 
