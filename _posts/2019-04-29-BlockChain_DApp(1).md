@@ -49,6 +49,16 @@ date: 2019-04-29
 -	`npm uninstall -g truffle npm install -g truffle@4.1.15`
 
 
+## 2. 개발환경 셋업 2 (비쥬얼 스튜디오 코드, 메타마스크)
+
+-	visual studio code install
+-	solidity 확장 어플 다운
+-	metamask.io
+-	create Account 메타 마스크가 메인 넷이나 다른 테스트 네트워크에 연결한 상태라면, 랜덤으로 새로운 계정을 생성한다.
+-	private key도 seed phrase처럼 잃어버리면 안된다.
+-	생성된 계정은 메타마스크 안에서 지울 수 없다. 지우고 싶다면 메타마스크를 지우고 새로 설치해야 한다.
+- private key 사용해서 계정 불러온 경우, seed phrase써서 계정 복구할 때, import해서 불러온 계정들은 복구가 되지 않는다는 점 기억하자.
+
 
 
 
@@ -62,3 +72,6 @@ date: 2019-04-29
 
 -	ganache
 <https://github.com/trufflesuite/ganache/releases/tag/v1.1.0>
+
+- metamask
+<metamask.io>
