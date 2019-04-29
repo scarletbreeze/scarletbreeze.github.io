@@ -1,8 +1,5 @@
-## 코딩철학 
+# Kwon Young Jae
 
-- 개발을 하면서 어려웠던 부분이나 중요한 내용을 기록
-
-
-## License
-
-- jekyll [shiori theme](https://github.com/ellekasai/shiori)을 사용
+### Contacts
+[![Email](https://img.shields.io/badge/Email-NESOY-00059f.svg)](mailto:kyoje11@gmail.com)
+[![Blog](https://img.shields.io/badge/Blog-nesoy.github.io-0229bf.svg)](https://nesoy.github.io/)
