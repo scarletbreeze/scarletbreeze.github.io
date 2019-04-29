@@ -9,7 +9,7 @@ tags: BlockChain
 date: 2019-04-29
 ---
 
-![No Image](../assets/logo/BlockChain.png)
+![No Image](/assets/logo/BlockChain.png)
 
 # **인프런 -블록체인 이더리움 부동산 댑(Dapp) 만들기 **
 
