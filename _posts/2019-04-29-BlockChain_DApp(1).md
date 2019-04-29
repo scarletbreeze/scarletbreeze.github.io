@@ -31,7 +31,7 @@ date: 2019-04-29
 - 가나슈는 스마트컨트랙트 개발에 있어서 편리한 인터페이스 제공
 - UI로 제공하는 이더리움 블록체인 툴
  
-![No Image](../assets/posts/20190429/1.png)
+![No Image](/assets/posts/20190429/1.png)
 - Current Block : 노드에서 채굴한 마지막 블록 넘버
 - Gas Price : 노드가 트랜잭션을 채굴하기 위한 최소한의 가스 가격
 - Gas Limit: 트랜잭션을 마치기 위해 필요한 최대한의 가스 
