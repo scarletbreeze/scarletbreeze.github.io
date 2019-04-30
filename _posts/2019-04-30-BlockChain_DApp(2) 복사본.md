@@ -52,25 +52,8 @@ date: 2019-04-30
 
 
 ## 3. Geth로 프라이빗 노드 구축 3(Geth 콘솔)
--	`geth attach ipc://./pipe/geth.ipc` ->이게 실행이 안되서 그냥 geth attach ipc로 함.
--	해당 명령어는 백그라운드로 돌고 있는 노드에 연결시켜서 자바스크립트 console을 연다. 몇 가지 정보 확인 가능
--	 coinbase (3개의 계정 중 첫 계정 의미)
--	 module : 이 창에서 쓸 수 있는 api 나열.
--	 nodestart.cmd에 파라미터로 `-rpcapi` 주고 값으로  `eth,web3,personal,net`을 줬었다. 
--	 `eth.coinbase` : coinbase 계정 등장
--	 `eth.accounts` : 현재 노드에 등록된 모든 계정
--	 `eth.getBalance(eth.accounts[1])` 2번째 계정의 잔액을 본다.
-- 	`eth.getBalance(eth.coinbase)` : 이 금액 wei 변환되서 나옴.(terminal에서는 그냥 0붙여서 나옴) wei는 adder를 나타내는 데 가장 낮은 단위 
-- 	`web3.fromWei(eth.getBalance(eth.coinbase),"ether")` 이렇게 치니 308 나오네
-- 	`miner.stop()` : 채굴 멈추기
-- 	`miner.start(2)` : 2는 몇개의 채굴기 사용.
-- 	`personal.unlockAccount(eth.accounts[1],"비밀번호",200)` : 계정 언락. 계정의 프라이빗키. 즉 개인키를 열어서 트랜잭션에 서명할 수 있게. 디폴트로 프라이빗키는 잠궈져 있고 계정의 비밀번호를 알고 있어야 언락 가능. 일정시간동안 언락도 가능. 200초 unlock 걸어놓음
--  `eth.sendTransaction({from:eth.coinbase, to:eth.accounts[1], value:web3.toWei(20,"ether")})` 리턴된 것 : 새로운 트랜잭션이 만들어진 것. 
--  `eth.getBalance(eth.accounts[1])` : 보낸 것 확인하기
--  `exit` console 나가기
+-	
 
 ## 참조
 <https://www.inflearn.com/course/blockchain-%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-dapp#>
 
-geth 명령어 in mac 참조 
-<https://medium.com/landingblock-korea/10-%EC%8B%A4%EC%8A%B5-mac-os%EC%97%90%EC%84%9C-geth-%EA%B5%AC%EB%8F%99%EC%8B%9C%EC%BC%9C%EB%B3%B4%EC%9E%90-%EB%AA%85%EB%A0%B9%EC%96%B4-%EB%B0%8F-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%8B%A4%EC%8A%B5-genesis-json-19427d41c2f0>
