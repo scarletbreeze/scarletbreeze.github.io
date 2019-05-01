@@ -61,7 +61,8 @@ date: 2019-05-01
 
 ## Built-in Java Class Implementing Priority Queue
 
-![No Image](/assets/post/20190501/7.png)
+![No Image](/assets/posts/20190501/7.png)
+
 
 ## List-Based PQ
 
@@ -84,11 +85,11 @@ date: 2019-05-01
 
 ### In-place Insertion Sort
 
-![No Image](/assets/post/20190501/8.png)
+![No Image](/assets/posts/20190501/8.png)
 
 ### In-place Selection Sort
 
-![No Image](/assets/post/20190501/9.png)
+![No Image](/assets/posts/20190501/9.png)
 
 - - -
  
