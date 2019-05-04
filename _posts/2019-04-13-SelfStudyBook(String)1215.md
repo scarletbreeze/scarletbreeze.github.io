@@ -1,8 +1,12 @@
 ---
-
+layout: post
 title: SelfStudyBook(String),(1215)
-tag: algorithm
-
+categories: [algorithm]
+excerpt: ' '
+comments: false
+share: false
+tags: algorithm
+date: 2019-04-13
 ---
 
 ## [String] 문자열, 대표문제 - Palindrome
@@ -18,7 +22,7 @@ tag: algorithm
 
 ## 대표문제 Palindrome
 
-"기러기" 또는 "level과 같이 거꾸로 읽어도 제대로 읽은 것과 가은 문장이나 낱말을 회문이라고 한다. 주어진 8*8 평면 글자판에서 가로, 세로를 모두 보아 제시된 길이를 가진 회문의 총 개수를 구하는 문제이다.
+"기러기" 또는 "level과 같이 거꾸로 읽어도 제대로 읽은 것과 가은 문장이나 낱말을 회문이라고 한다. 주어진 8\*8 평면 글자판에서 가로, 세로를 모두 보아 제시된 길이를 가진 회문의 총 개수를 구하는 문제이다.
 
 ## 문자열.
 
@@ -28,7 +32,7 @@ tag: algorithm
 
 그림에서 볼 수 있듯 java.lang.string 클래스에는 기본적인 객체 메타 데이터 외에도 네 가지 필드들이 포함되어 있는데, hash값, 문자열의 길이(Count), 문자열 데이터의 시작점(offset), 그리고 실제 문자열 배열에 대한 참조(value)이다.
 
-C에서의 문자열은  문자들의 배열 형태로 구현된 응용 자료형이라고 할 수 있다. 다만 아래와 같이 문자 배열에 문자열을 저장할 때에는 항상 마지막 끝에 끝을 표시하는 NULL(\0)을 넣어줘야 한다.
+C에서의 문자열은 문자들의 배열 형태로 구현된 응용 자료형이라고 할 수 있다. 다만 아래와 같이 문자 배열에 문자열을 저장할 때에는 항상 마지막 끝에 끝을 표시하는 NULL(\0)을 넣어줘야 한다.
 
 또한 문자열 처리에 필요한 연산은 strlen(), strcpy(), strcmp()와 같이 함수 형태로 제공이 된다. 이와는 다르게 javaㅘ 같이 객체지향언어에서는 문자열 데이터를 저장, 처리해주는 클래스를 제공하고 문자열 처리에 필요한 연산은 length(), replace(), split(), substring()등 다양한 메소드 형태로 제공된다.
 
@@ -47,7 +51,7 @@ strcmp()와 같은 경우에는 두 문자열이 같은 경우 0을 리턴하고
 
 ## 문자열 숫자를 정수로 변환
 
-C에서는 atoi() 함수와 역함수로는 itoa()를 제공하고 
+C에서는 atoi() 함수와 역함수로는 itoa()를 제공하고
 Java에서는 숫자 클래스의 parse() 메소드를, 역으로는 toString() 메소드를 제공한다.
 
 ## 해설
@@ -59,13 +63,12 @@ Java에서는 숫자 클래스의 parse() 메소드를, 역으로는 toString() 
 1. 찾은 회문의 개수를 저장할 변수를 0으로 초기화 한다.
 2. 주어진 문자판의 첫 번째 행 좌측부터 가로 방향으로 한 문자씩 탐색을 시작한다.
 3. 현재 위치의 문자를 기준으로 찾아야 할 길이만큼 구간에 대해 회문 여부를 판단한다. 이 때 임시로 사용할 boolean형 flag 변수를 true로 초기화한다.
-	A. 회문의 길이가 짝우시거나 홀수인 것에 관계 없이 양 끝 문자를 시작으로 한 칸씩 가운데로 좁혀 들어오며 일치 여부를 검사한다.
-	B. 이때 일치하지 않는 문자가 발견되면 flag 변수를 false로 바꾼 후 검사를 종료한다
-	C. flag 변수가 true라면 찾은 회문의 개수를 1 증가시킨다.
+   A. 회문의 길이가 짝우시거나 홀수인 것에 관계 없이 양 끝 문자를 시작으로 한 칸씩 가운데로 좁혀 들어오며 일치 여부를 검사한다.
+   B. 이때 일치하지 않는 문자가 발견되면 flag 변수를 false로 바꾼 후 검사를 종료한다
+   C. flag 변수가 true라면 찾은 회문의 개수를 1 증가시킨다.
 4. 모든 행에 대해 2,3번 과정을 진행한다.
 5. 작업이 종료되면 열 방향으로 위의 과정을 진행한다.
 6. 열 방향까지 탐색이 완료되면 찾은 회문의 개수를 리턴한다.
-
 
 ## 시행착오
 
@@ -83,29 +86,29 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Solution {
-	
+
 	static int T = 10;
-	
+
 	public static void main(String args[]) throws Exception{
-	
+
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+
 		 int n ; // 찾아야 하는 정점의 수
 		 int i,j,k;
-		 
+
 		 int t = 1;
 		 while(T-- > 0) {
 			 // 2차원 배열 생성
 			 char [][]Array = new char[8][8];
-			 
+
 			 //count
 			 int count = 0;
-			 
-			 //입력 받기 
+
+			 //입력 받기
 			 n = Integer.parseInt(br.readLine());
-			
-			 
-					 
+
+
+
 			 for(i = 0 ; i < 8; i++) {
 				 String s = br.readLine();
 				 for(j = 0; j < 8 ; j++) {
@@ -114,12 +117,12 @@ public class Solution {
 				 }
 //				 System.out.println();
 			 }
-					 
-			 
-			
-			
+
+
+
+
 			 boolean flag;
-			//행방향 
+			//행방향
 			for(i = 0 ; i < 8; i++) {
 				for(j = 0 ; j < 8-n+1; j++) {
 					flag = true;
@@ -133,8 +136,8 @@ public class Solution {
 					}
 				}
 			}
-			 
-			//열방향 
+
+			//열방향
 			for(i = 0 ; i < 8; i++) {
 				for(j = 0 ; j < 8-n+1; j++) {
 					flag = true;
@@ -153,17 +156,13 @@ public class Solution {
 		 }
 	};
 }
-				
+
 
 
 ```
 
+---
 
-
-- - -
- 
-참고자료 
+참고자료
 
 SWE selfStudyBook(1)
-
-
