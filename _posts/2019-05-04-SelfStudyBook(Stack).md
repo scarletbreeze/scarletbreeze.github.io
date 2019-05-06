@@ -185,7 +185,7 @@ O(n^2)이었던 시간복잡도가 O(n)줄어들었다는 것은 코드만 봐�
 
 1218번 문제 풀기.
 
-```
+```java
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Scanner;
@@ -254,29 +254,101 @@ public class Solution {
 일반적으로 사용하는 방식 -> 중위 표기법.
 => 괄호 안을 찾아서 탐색하고, 해당 계산을 먼저 해줘야 한다. 따라서 연산량이 많아져 좋지 않다. 실제로 이를 피하기 위해 후위 표기법을 사용한다.
 
-후위 표기법은 수식을 계산할 떄 특별한 변환이 필요 없이 수식을 앞에서 읽어나가면서 스택에 저장하면 된다는 장정미 있다.
+후위 표기법은 수식을 계산할 떄 특별한 변환이 필요 없이 수식을 앞에서 읽어나가면서 스택에 저장하면 된다는 장점이 있다.
 
 스택을 이용하여 바꾸는 방법.
-
 ex) `(3+5) * (4+2)`
 
-(는 넣고, 숫자의 경우 Stack에 넣지 않고 출력한다. +의 경우 연산 부호 이므로 Stack에 넣는다.
-닫힌 괄호가 나온 경우, 열린 괄호가 나올 떄까지 pop하여 출력한다.
+1. 열린 괄호의 "("의 경우에 Stack에 넣는다
+2. 숫자의 경우 Stack에 넣지 않고 바로 출력한다.
+3. +의 경우 연산 부호 이므로 Stack에 넣는다
+4. 닫힌 괄호가 나온 경우, 열린 괄호가 나올 때 까지 Pop하여 출력한다
+5. 더 이상 남아있지 않은 경우 모두 pop한다.
+
+- 전위 표기를 후위 표기로 바꾸는 코드 짜보자
+
+```java
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Stack;
+
+public class Solution {
+	public static void main(String[] args) throws Exception  {
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+		Stack<Character> stack;
+		stack = new Stack<Character>();
+
+		String s = bf.readLine();
+		for(int i  = 0 ; i < s.length(); i++) {
+			char temp = s.charAt(i);
+			if(temp == '(' || temp == '+' || temp == '*') {
+				stack.push(temp);
+			}else if(temp == ')') {
+
+				boolean flag = true;
+				while(flag) {
+					char temp2 = stack.pop();
+					if(temp2 == '(') {
+						flag=false;
+					}else {
+						System.out.print(temp2);
+					}
+				}
+
+				while(stack.size()!= 0) {
+					System.out.print(stack.pop());
+				}
+
+			}else {
+				System.out.print(temp);
+			}
+		}
+
+	}
+}
+//(3+5)*(4+2)
+
+```
 
 만약, 연산자 우선순위를 고려한다면 단순히 Stack에 Push하는 것이 아니라 Push 하기 전에 자신의 우선 순위 보다 낮은 연산자 일때까지 Pop을 해주어야 한다. 이 점을 주의하여 코딩해보자.
 
+( 연산자는 스택이 비어있지 않으면 스택에 있는 연산자의 우선순위를 비교해 스택에 있는 연산자의 우선순위가 같거나 크다면 스택에 있는 연산자를 pop을 한후 출력하고, 현재 연산자는 스택에 push한다. 우선순위가 현재 연산자가 더 크다면 현재 연산자를 push한다.)
+
 ## 3.1 대표문제. 계산기 해결하기
 
-문자열로 이루어진 계산식이 주어질 때 이 계산식을 후위 표기법으로 바꾸어 계산하는 프로글매을 작성하기
+문자열로 이루어진 계산식이 주어질 때 이 계산식을 후위 표기법으로 바꾸어 계산하는 프로그램을 작성하기
 
-후위표기법 -> 스택을 이용하여 계산을 쉽게 한다.
+예를 들어
+"3+(4+5)*6+7"
+라는 문자열로 된 계산식을 후위 표기법으로 바꾸면 다음과 같다.
+"345+6*7+"
+변환된 식을 계산하면 64를 얻을 수 있다.
+
+#### 제약사항
+
+(문자열 계산식 구성하는 연산자는 +,\* 두 종류 뿐)
+(괄호의 유효성 여부는 항상 옳은 경우만 주어짐)
+
+#### 후위표기법으로 되어있는 수식을 계산하는 방법
+
+계산을 이용하는 것 역시 스택을 이용한다.
 
 1. 피 연산자를 만나면 스택에 Push 한다.
 2. 연산자를 만나면 필요한 만큼의 피 연산자를 스택에서 Pop하여 연산하고, 연산 결과를 다시 스택에 Push한다.
 3. 수식이 끝나면, 마지막으로 스택을 Pop하여 출력한다.
+
+## 대표문제. 계산기 해결하기
+
+1. ※ 이전의 코드에서 연산자 우선순위 추가하기
+2. 괄호의 경우, 여는 괄호가 스택에 push 된 후, 닫는 괄호가 나올 때 까지 여는 괄호가 pop이 되면 안되므로 여는 괄호의 우선순위는 제일 낮다.
 
 ---
 
 참고자료
 
 SWE selfStudyBook(2)
+
+연산자 우선순위 고려 참고 블로그
+<https://jamanbbo.tistory.com/>
+<https://donggod.tistory.com/45>
+<http://blog.naver.com/PostView.nhn?blogId=wpdls6012&logNo=220247355248&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView>
