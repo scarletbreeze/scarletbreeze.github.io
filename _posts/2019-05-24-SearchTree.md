@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (자료구조)SearchTree(1)
+title: (자료구조)SearchTree(1)_BinarySearchTree
 categories: [data]
 excerpt: ' '
 comments: false
@@ -73,8 +73,6 @@ date: 2019-05-24
 - 관건은 어떻게하면 tree의 height를 optimal하게 유지시킬까?
 - load factor가 일정 수준 넘어가면 rehashing을 해주는 것과 같다.
 - rebalancing(restructuring)기능을 가지고 있는 걸 -> Balanced Search Tree라고 한다.
-
-#### ※ 순회 복습
 
 ---
 
