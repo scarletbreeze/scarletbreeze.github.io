@@ -77,7 +77,7 @@ date: 2019-05-23
 ![No Image](/assets/posts/20190523/5.png)
 
 - searchTable : 인서트가 느리다. arraylist에 구현되어야 하기 때문에, 중간이 끼워너헝야 한다 -> O(n)
-- remove-> 찾아서 지워야 하기 때무넹 O(n)
+- remove-> 찾아서 지워야 하기 때문에 O(n)
 
 ### Extensions of Dictionaries
 
