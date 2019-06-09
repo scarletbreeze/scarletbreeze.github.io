@@ -1,0 +1,23 @@
+---
+layout: post
+title: (자료구조)redBlackTree
+categories: [data]
+excerpt: ' '
+comments: false
+share: false
+tags: data
+date: 2019-06-07
+---
+
+## redBlackTree
+
+---
+
+하영국 교수님 자바 수업
+
+[Zedd0202]<https://zeddios.tistory.com/237>
+
+[덕's IT STORY]<https://itstory.tk/entry/%EB%A0%88%EB%93%9C%EB%B8%94%EB%9E%99-%ED%8A%B8%EB%A6%ACRed-black-tree>
+
+[자바구현]
+<https://www.java-tips.org/java-se-tips-100019/24-java-lang/1904-red-black-tree-implementation-in-java.html>
