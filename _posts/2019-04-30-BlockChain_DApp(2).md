@@ -15,7 +15,6 @@ date: 2019-04-30
 
 ## 1. Geth로 프라이빗 노드 구축(제네시스 블록, 계정 생성)
 
-- ####
 - genesis 블록 생성(노드 초기화에 필요)
 - `puppeth`라는 geth 인스톨 될 때, 같이 설치되는 툴을 가지고 제네시스 블록을 생성.
 - chain/network ID 설정시, public ID는 피해야함 (1: Main net, 2: modern test net(이제안씀) , 3. Ropsten test net, 5. Rinkeby test network, 42: kovan test net)
@@ -39,7 +38,7 @@ date: 2019-04-30
 - keystore는 우리가 만들 계정들을 저장하는 공간
 - `geth --datadir . account new` : keystore 폴더 안에 무작위로 새로운 이더리움 계정 생성
 - 총 3개 생성.
-- 계정을 리스트로 보여주는 커맨드 : 'geth --datadir . account list'
+- 계정을 리스트로 보여주는 커맨드 : `geth --datadir . account list`
 - 생성한 순서대로 번호를 매겨서, 계정 주소와 파일이 어디에 위치해있는지 알려줌. 첫 번째 계정은 모든 채굴 보상금이 이 계정으로 들어간다.
 
 ## 2. Geth로 프라이빗 노드 구축 2(노드 첫 실행, DAG 파일 생성)
