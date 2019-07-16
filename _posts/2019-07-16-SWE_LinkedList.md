@@ -5,7 +5,7 @@ categories: [python]
 excerpt: ' '
 comments: false
 share: false
-tags: python
+tags: SWExpertAcadmey
 date: 2019-07-16
 ---
 
