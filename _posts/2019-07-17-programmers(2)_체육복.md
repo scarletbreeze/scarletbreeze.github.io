@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programmers(2)_체육복
+title: programmers(2)_level1_체육복
 categories: [algorithm]
 excerpt: ' '
 comments: false
