@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programmers(1)_모의고사
+title: programmers(1)_level1_모의고사
 categories: [algorithm]
 excerpt: ' '
 comments: false
