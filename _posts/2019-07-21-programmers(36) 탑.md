@@ -6,7 +6,7 @@ excerpt: ' '
 comments: false
 share: false
 tags: algorithm programmers level2
-date: 2019-07-20
+date: 2019-07-21
 ---
 
 ## 문제: 36. 탑
