@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programmers(35)level_2
+title: programmers(35)level_2(주식가격)
 categories: [algorithm]
 excerpt: ' '
 comments: false
