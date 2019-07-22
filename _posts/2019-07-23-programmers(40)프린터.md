@@ -1,15 +1,15 @@
 ---
 layout: post
-title: programmers(37)level_2(124나라의숫자)
+title: programmers(40)level_2(프린터)
 categories: [algorithm]
 excerpt: ' '
 comments: false
 share: false
 tags: algorithm programmers level2
-date: 2019-07-21
+date: 2019-07-23
 ---
 
-## 문제: 37. 124 나라의 숫자
+## 문제: 40 프린터
 
 ---
 
