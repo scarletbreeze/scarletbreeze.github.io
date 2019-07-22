@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programmers(40)level_2(프린터)
+title: programmers(41)level_2(프린터)
 categories: [algorithm]
 excerpt: ' '
 comments: false
