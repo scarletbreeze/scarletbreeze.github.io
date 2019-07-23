@@ -86,7 +86,6 @@ def solution(n, lost, reserve):
         if (num[i] == 2):
             num[i] = 1
     return sum(num)
-
 ```
 
 코드가 굉장히 지저분하다.
