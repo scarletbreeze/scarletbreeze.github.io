@@ -9,7 +9,7 @@ tags: algorithm programmers level2
 date: 2019-07-23
 ---
 
-## 문제: 40 프린터
+## 문제: 41 프린터
 
 - 중요도가 높은 문서를 먼저 인쇄하는 프린터 개발
 
