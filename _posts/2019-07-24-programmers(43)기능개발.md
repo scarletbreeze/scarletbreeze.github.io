@@ -67,16 +67,16 @@ date: 2019-07-24
 
 ```python
 import math
-    def solution(progresses, speeds):
-        answer = []
-        progresses = [math.ceil((100-a)/b) for a, b in zip(progresses, speeds)]
-        front = 0
-        for idx in range(len(progresses)):
-        if progresses[front] < progresses[idx]:
-            answer.append(idx-front)
-                front = idx
-        answer.append(len(progresses)-front)
-    return answer
+def solution(progresses, speeds):
+    answer = []
+    progresses = [math.ceil((100-a)/b) for a, b in zip(progresses, speeds)]
+    front = 0
+    for idx in range(len(progresses)):
+    if progresses[front] < progresses[idx]:
+        answer.append(idx-front)
+        front = idx
+    answer.append(len(progresses)-front)
+return answer
 
 출처: https://geonlee.tistory.com/122 [빠리의 택시 운전사]
 ```
