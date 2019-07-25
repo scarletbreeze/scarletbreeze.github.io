@@ -92,3 +92,4 @@ print(solution(2, 10, [7, 4, 5, 6]))
 
 참고자료
 [참고블로그]<https://oneshottenkill.tistory.com/340>
+[프로그래머스]<https://programmers.co.kr/learn/challenges>
