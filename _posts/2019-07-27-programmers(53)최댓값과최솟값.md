@@ -23,6 +23,14 @@ def solution(s):
 print(solution("-1 -2 -3 -4"))
 ```
 
+- 위와 동일
+
+```python
+def solution(s):
+    s = list(map(int,s.split()))
+    return str(min(s)) + " " + str(max(s))
+```
+
 ---
 
 참고자료z

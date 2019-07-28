@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programmers(53)level_2(숫자의표현)
+title: programmers(54)level_2(숫자의표현)
 categories: [algorithm]
 excerpt: ' '
 comments: false
