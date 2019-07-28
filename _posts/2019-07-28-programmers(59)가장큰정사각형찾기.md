@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programmers(52)level_2(가장_큰_정사각형_찾기)
+title: programmers(59)level_2(가장_큰_정사각형_찾기)
 categories: [algorithm]
 excerpt: ' '
 comments: false
