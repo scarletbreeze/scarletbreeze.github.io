@@ -9,7 +9,7 @@ layout: page
 
 ## Links
 
-- Email : scarletbreeze@naver.com
+- Email : scarletbreez@naver.com
 - [Github](https://github.com/scarletbreeze)
 
 ---
