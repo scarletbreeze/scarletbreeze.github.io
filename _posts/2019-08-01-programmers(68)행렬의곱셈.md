@@ -63,4 +63,4 @@ return [[sum(a*b for a, b in zip(A_row,B_col)) for B_col in zip(*B)] for A_row i
 참고자료
 [프로그래머스]<https://programmers.co.kr/learn/challenges>
 [행렬의곱셈]<https://j1w2k3.tistory.com/575>
-[참고블로그]<https://scarletbreeze.github.io/>
+[참고블로그]<https://geonlee.tistory.com/110/>
