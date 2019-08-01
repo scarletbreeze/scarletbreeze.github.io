@@ -20,7 +20,7 @@ import itertools
 def solution(nums):
     answer = 0
     # 소수 구해놓기
-    n = 1001
+    n = 10000
     num = set(range(2, n))
     for i in range(2, n+1):
         if i in num:
