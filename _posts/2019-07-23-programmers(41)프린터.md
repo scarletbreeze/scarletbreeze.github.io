@@ -77,7 +77,32 @@ priors = temp + priors[0:priors.index(max(priors))]
 
 ## 다른 사람 풀이
 
-- 다들 제각각이라 그냥 내 풀이를 믿고 가자.
+```python
+def solution(p, l):
+    ans = 0
+    m = max(p)
+    while True:
+        v = p.pop(0)
+        if m == v:
+            ans += 1
+            if l == 0:
+                break
+            else:
+                l -= 1
+            m = max(p)
+        else:
+            p.append(v)
+            if l == 0:
+                l = len(p)-1
+            else:
+                l -= 1
+    return ans
+```
+
+- max에 대한 값을 갱신해줌으로써 문제를 풀 수 있다.
+- location의 값만큼 -1을 해줌으로써, 반복 횟수를 줄일 수 있다.
+- q의 max값과 pop한 값이 같으면, 결과값을 한칸 이동해주고, location을 1만큼 감소시킨다
+- 그렇지 않은 경우, 그대로 pop한 결과를 다시 q에 집어 넣고 조건에 맞게 계산한다.
 
 ---
 
