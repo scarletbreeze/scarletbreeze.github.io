@@ -34,11 +34,11 @@ date: 2019-08-02
   - 꺼낸 노드는 출력. 이를 반복
 
 ```python
-def Network(computers, visited, SNode):
-    stack = [SNode]  # idx를 스택에 넣고 시작
-    while stack:  # 스택이 빌 때까지
-        path = stack.pop()  # 스택에서 하나 꺼내고
-        if not visited[path]:
+def Network(computers, visited, StartNode):
+    stack = [StartNode]  # 스택에 idx 하나 넣고 시작
+    while stack:  # 스택이 빌 때가지
+        path = stack.pop()  # 꺼내고
+        if not visited[path]:  # 방문하지 않았다면
             visited[path] = True
         for i in range(len(computers)):
             if computers[path][i] == 1 and not visited[i]:
@@ -47,17 +47,15 @@ def Network(computers, visited, SNode):
 
 def solution(n, computers):
     answer = 0
-    visited = [False for i in range(n)]  # 방문한 노드 표시
+    visited = [False for _ in range(n)]  # 방문했음을 표시
     idx = 0
-    while not all(visited):  # 전부다 방문할 때까지 반복
+    while not all(visited):  # 모든 노드가 True가 될 때까지
         if not visited[idx]:
             Network(computers, visited, idx)
-            answer += 1  # 처음 방문한 것이기 때문에 네트워크 개수를 늘려준다.
+            answer += 1
         idx += 1
     return answer
 
-
-print(solution(3, [[1, 1, 0], [1, 1, 0], [0, 0, 1]]))
 
 ```
 
@@ -66,7 +64,7 @@ print(solution(3, [[1, 1, 0], [1, 1, 0], [0, 0, 1]]))
 - 2치원 배열 탐색할 때, for문으로 1차원씩 잘라서 재귀함수 호출 가능
 
 - python 내장 함수 중에 all이란게 있다.
-  - all(x) : 반복가능한 자료형 x를 입력 인수로 받아 x가 모두 참이면 True, 거짓이면 False를 돌려준다.
+- all(x) : 반복가능한 자료형 x를 입력 인수로 받아 x가 모두 참이면 True, 거짓이면 False를 돌려준다.
 
 ---
 
