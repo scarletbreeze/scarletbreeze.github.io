@@ -14,6 +14,7 @@ date: 2019-08-04
 1. SWE4871 - 그래프의 경로
 2. SWE4875 - 미로
 3. SWE5105 - 미로의 거리
+4. SWE5012 - 노드의 거리
 
 ## 1. SWE4871 - 그래프의 경로
 
@@ -673,6 +674,48 @@ for rounds in range(int(input())):
 - 위 방법은 재귀를 이용한 DFS 순서와 일치한다
 - stack을 이용할 때도, 탐색순서는 이와 같이 차이가 있을 수 있다.
 - 둘다 깊이 우선 탐색이란 점에서는 동일하다.
+
+## 4. 5102 - 노드의 거리
+
+이 문제 역시, SWE4871 - 그래프의 경로에서 거리를 구하는 문제로 변경된 문제다.
+이 문제는 start에서 최단거리를 찾아가는 방식을 취했다.
+DFS로 구현한다면 모두 돌아서 최단거리를 찾아야 한다.
+따라서 이런 문제는 BFS가 효과적이다.
+
+```python
+def BFS(start):
+    global result
+    Q.append(start)
+    visited[start] = 1
+    while Q:
+        start = Q.pop(0)
+        for next in range(1, V + 1):
+            if Map[start][next] and not visited[next]:
+                Q.append(next)
+                visited[next] = 1
+                Distance[next] = Distance[start]+1
+                if next == G:
+                    result = Distance[next]
+                    return
+    return
+
+
+for rounds in range(int(input())):
+    V, E = map(int, input().split())
+    Map = [[0]*(V+1) for _ in range(V+1)]
+    visited = [0]*(V+1)
+    for i in range(E):
+        a, b = map(int, input().split())
+        Map[a][b] = 1
+        Map[b][a] = 1
+    S, G = map(int, input().split())
+    Distance = [0] * (V+1)
+    result = 0
+    Q = []
+    BFS(S)
+    print(f"#{rounds+1} {result}")
+
+```
 
 ---
 
