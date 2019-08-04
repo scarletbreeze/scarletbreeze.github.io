@@ -6,7 +6,7 @@ excerpt: ' '
 comments: false
 share: false
 tags: SWExpertAcadmey intermediate
-date: 2019-08-03
+date: 2019-08-04
 ---
 
 # 목차
@@ -14,9 +14,6 @@ date: 2019-08-03
 1. SWE4871 - 그래프의 경로
 2. SWE4875 - 미로
 3. SWE5105 - 미로의 거리
-4. SWE5102 - 노드의 거리
-5. SWE4880 - 토너먼트카드게임
-6. SWE4881 - 배열의 최소합
 
 ## 1. SWE4871 - 그래프의 경로
 
