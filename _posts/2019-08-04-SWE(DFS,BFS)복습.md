@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SWE(DFS,BFS)_python_intermediate_6문제복습
+title: SWE(DFS,BFS)_python_intermediate_4문제복습
 categories: [algorithm]
 excerpt: ' '
 comments: false
