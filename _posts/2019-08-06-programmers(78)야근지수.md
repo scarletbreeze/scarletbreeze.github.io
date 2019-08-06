@@ -76,7 +76,7 @@ def solution(n, works):
             break
         m += 1
         heapq.heappush(works, m)
-    answer = sum(map(lambda x: x**2, works))
+    answer = sum(map(lambda x: x**2, works)) # 어차피 제곱하면 상관 없잖아요
     return answer
 
 
