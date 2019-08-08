@@ -6,7 +6,7 @@ excerpt: ' '
 comments: false
 share: false
 tags: algorithm programmers level3
-date: 2019-08-07
+date: 2019-08-08
 ---
 
 ## 문제: 81. 디스크 컨트롤러
