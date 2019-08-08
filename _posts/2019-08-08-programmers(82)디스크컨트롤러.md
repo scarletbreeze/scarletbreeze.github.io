@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programmers(81)level_3(디스크컨트롤러)
+title: programmers(82)level_3(디스크컨트롤러)
 categories: [algorithm]
 excerpt: ' '
 comments: false

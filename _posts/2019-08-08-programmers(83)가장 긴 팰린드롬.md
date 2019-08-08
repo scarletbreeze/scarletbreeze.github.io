@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programmers(82)level_3(가장_긴_팰린드롬)
+title: programmers(83)level_3(가장_긴_팰린드롬)
 categories: [algorithm]
 excerpt: ' '
 comments: false
