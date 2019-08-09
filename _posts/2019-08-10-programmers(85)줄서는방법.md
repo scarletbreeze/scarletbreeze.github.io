@@ -6,7 +6,7 @@ excerpt: ' '
 comments: false
 share: false
 tags: algorithm programmers level3
-date: 2019-08-09
+date: 2019-08-10
 ---
 
 ## 문제: 85. 줄 서는 방법
