@@ -9,6 +9,8 @@ tags: algorithm programmers level3
 date: 2019-08-10
 ---
 
+- 다음에 다시
+
 ## 문제: 85. 줄 서는 방법
 
 - 시간초과
