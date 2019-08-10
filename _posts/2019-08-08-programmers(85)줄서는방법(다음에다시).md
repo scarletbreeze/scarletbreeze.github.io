@@ -6,7 +6,7 @@ excerpt: ' '
 comments: false
 share: false
 tags: algorithm programmers level3
-date: 2019-08-10
+date: 2019-08-08
 ---
 
 - 다음에 다시
