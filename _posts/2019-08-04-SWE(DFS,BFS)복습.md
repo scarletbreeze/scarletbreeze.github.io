@@ -295,7 +295,7 @@ Distance:  [0, 3, 0, 1, 0]
 Distance:  [0, 2, 1, 0, 0]
 ```
 
-- 즉 이진트리로 바꿔놓고 생각해봤을 때, 갈 수 있는 depth의 경로를 순서대로 가는 , BFS 방식을 취하더라..
+- 즉 이진트리로 바꿔놓고 생각해봤을 때, 갈 수 있는 depth의 경로를 순서대로 가는 , DFS 방식을 취하더라..
 
 ```python
 def IsSafe(y, x):
@@ -342,7 +342,7 @@ for rounds in range(int(input())):
     print(f"#{rounds+1} {result}")
 ```
 
-- BFS를 stack을 이용해서 구해보면 어떨까?
+- DFS를 stack을 이용해서 구해보면 어떨까?
 
 ```python
 
@@ -363,7 +363,7 @@ for rounds in range(int(input())):
     dx = [0, 0, -1, 1]
 
     result = 0
-    # stack을 이용한 BFS 구현
+    # stack을 이용한 DFS 구현
     visited = [(start_y, start_x)]
     stack = [(start_y, start_x)]
     while stack:
