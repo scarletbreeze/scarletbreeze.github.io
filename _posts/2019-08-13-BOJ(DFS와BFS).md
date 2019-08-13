@@ -5,7 +5,7 @@ categories: [algorithm]
 excerpt: ' '
 comments: false
 share: false
-tags: algorithm BOJ 그래프와BFS 1260
+tags: algorithm BOJ 그래프와BFS 1260 DFS/BFS
 date: 2019-08-13
 ---
 
