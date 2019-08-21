@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programmers(줄서는방법)
+title: programmers(86)level_3(줄서는방법)
 categories: [algorithm]
 excerpt: ' '
 comments: false
