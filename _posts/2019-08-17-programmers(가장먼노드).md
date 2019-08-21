@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programmers(84)level_3(가장 먼 노드)
+title: programmers(85)level_3(가장 먼 노드)
 categories: [algorithm]
 excerpt: ' '
 comments: false
