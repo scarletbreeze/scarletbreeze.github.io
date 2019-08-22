@@ -6,7 +6,7 @@ excerpt: ' '
 comments: false
 share: false
 tags: algorithm programmers level3
-date: 2019-08-22
+date: 2019-08-21
 ---
 
 ## 저울
@@ -22,7 +22,6 @@ date: 2019-08-22
 5. 답 찾았을 때 break 해서 출력한다.
 
 - 결론은 직관적으로 풀면 된다.
--
 
 ```python
 def solution(weight):
