@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programmers(86)level_3(저울)
+title: programmers(88)level_3(저울)
 categories: [algorithm]
 excerpt: ' '
 comments: false
