@@ -13,7 +13,7 @@ date: 2019-09-24
 
 1. 최댓값 구하기
 
-```mysql
+```sql
 SELECT DATETIME
 FROM ANIMAL_INS
 ORDER BY DATETIME DESC
