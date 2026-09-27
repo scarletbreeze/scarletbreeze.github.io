@@ -1,0 +1,11 @@
+# Changelog
+
+## 2026-09-28
+- 개발 환경 구성: Homebrew, nvm + Node 24 LTS, gh, VS Code
+- Vite + React + TS 프로젝트 초기화, react-router-dom 추가
+- 사이트 골격: Layout/Header/Footer, 10개 라우트, Home/Projects/About/콘텐츠 섹션 Placeholder
+- `data/projects.json` + `ProjectCard` + `StatusBadge` + `PageHeader`
+- 5개 프로젝트 Placeholder (`src/projects/*`) 및 `registry.ts`
+- 디자인 토큰(`tokens.css`, 라이트/다크), 반응형 1 브레이크포인트
+- GitHub Pages 배포 워크플로 + SPA 404 폴백 (배포 대상: scarletbreeze.github.io 루트)
+- 문서: AGENTS.md, charter, architecture, design system, data strategy, roadmap, decisions

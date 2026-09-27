@@ -1,0 +1,12 @@
+.project-card {
+  display: flex; flex-direction: column; gap: var(--space-2);
+  padding: var(--space-5); border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--surface); transition: border-color 0.15s, transform 0.15s;
+}
+.project-card:hover { border-color: var(--accent); transform: translateY(-2px); color: inherit; }
+.project-card__top { display: flex; justify-content: space-between; align-items: center; }
+.project-card__index { font-size: 0.75rem; color: var(--text-muted); }
+.project-card__name { margin: var(--space-2) 0 0; }
+.project-card__tagline { margin: 0; font-weight: 500; }
+.project-card__question { font-size: 0.9rem; margin: 0; flex: 1; }
+.project-card__tags { display: flex; gap: var(--space-2); flex-wrap: wrap; margin-top: var(--space-2); }

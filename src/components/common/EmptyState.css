@@ -1,0 +1,4 @@
+.empty-state {
+  padding: var(--space-7) var(--space-5); text-align: center;
+  border: 1px dashed var(--border); border-radius: var(--radius);
+}

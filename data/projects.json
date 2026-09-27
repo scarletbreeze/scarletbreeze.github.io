@@ -1,0 +1,55 @@
+{
+  "source": "internal project metadata — no external data",
+  "projects": [
+    {
+      "slug": "hero-lab",
+      "name": "Hero Lab",
+      "tagline": "영웅문 화면 연구소",
+      "question": "나 같은 투자자는 영웅문의 어떤 화면부터 봐야 할까?",
+      "description": "주식 초보, ETF 장기 투자자, 미국주식, 단기 트레이더, 선물옵션 등 사용자 유형별로 영웅문 화면과 기능을 큐레이션한다.",
+      "status": "planned",
+      "tags": ["curation", "ux", "hts"],
+      "order": 1
+    },
+    {
+      "slug": "voc-studio",
+      "name": "VOC Studio",
+      "tagline": "고객의 목소리를 데이터로",
+      "question": "고객은 무엇을 묻고, 무엇에 불편해하는가?",
+      "description": "고객게시판의 질문·불편·개선요구를 키워드 빈도, 카테고리, 기간별 트렌드, 급증 키워드로 분석한다. 초기 버전은 Mock 데이터 기반.",
+      "status": "planned",
+      "tags": ["nlp", "dashboard", "mock-data"],
+      "order": 2
+    },
+    {
+      "slug": "broker-atlas",
+      "name": "Broker Atlas",
+      "tagline": "증권사는 어디서 돈을 버는가",
+      "question": "Brokerage, WM, IB, S&T, 이자수익… 증권사 수익은 어떻게 구성되는가?",
+      "description": "증권사별 수익구조와 사업 특성을 인터랙티브하게 시각화한다. Money Map.",
+      "status": "planned",
+      "tags": ["visualization", "public-data", "finance"],
+      "order": 3
+    },
+    {
+      "slug": "time-machine",
+      "name": "Time Machine Investor",
+      "tagline": "그때 샀더라면",
+      "question": "2016년에 NVIDIA에 1,000만원을 투자했다면 지금 얼마일까?",
+      "description": "종목·시점·금액을 입력하면 현재 가치와 수익률을 벤치마크와 비교해 보여준다. 공유하기 좋은 결과 화면.",
+      "status": "planned",
+      "tags": ["game", "simulation", "share"],
+      "order": 4
+    },
+    {
+      "slug": "broker-tycoon",
+      "name": "Broker Tycoon",
+      "tagline": "증권사 경영 시뮬레이션",
+      "question": "제한된 자본을 어디에 배분해야 ROE가 오를까?",
+      "description": "Brokerage, IB, S&T, WM, 해외사업, IT에 자본을 배분하면 매출·비용·ROE·Risk가 달라지는 경영 게임.",
+      "status": "planned",
+      "tags": ["game", "simulation", "strategy"],
+      "order": 5
+    }
+  ]
+}

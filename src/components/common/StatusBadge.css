@@ -1,0 +1,7 @@
+.status-badge {
+  display: inline-block; padding: 2px 8px; border-radius: 999px;
+  font-size: 0.75rem; font-weight: 600; line-height: 1.5;
+}
+.status-badge--planned { background: var(--border); color: var(--text-muted); }
+.status-badge--in-progress { background: var(--warn-soft); color: var(--warn); }
+.status-badge--live { background: var(--ok-soft); color: var(--ok); }
