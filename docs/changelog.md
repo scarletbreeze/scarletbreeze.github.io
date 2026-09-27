@@ -11,3 +11,4 @@
 - 문서: AGENTS.md, charter, architecture, design system, data strategy, roadmap, decisions
 - 옛 Jekyll 블로그 419편 이관 → `/archive`, `/archive/:slug` (연도 필터, lazy Markdown 로드), `marked` 추가
 - `scripts/migrate_legacy_posts.py`, `data/archive/index.json`, `public/legacy/` 이미지
+- **배포**: `scarletbreeze.github.io` 저장소를 교체. 옛 Jekyll은 `legacy-jekyll` 브랜치에 보존, 기본 브랜치 `master`→`main`, Pages 빌드 GitHub Actions로 전환. https://scarletbreeze.github.io 라이브.

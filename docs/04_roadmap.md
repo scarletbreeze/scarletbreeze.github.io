@@ -2,7 +2,7 @@
 
 | 주차 | 목표 |
 |---|---|
-| ~W4 (9월 말) | ✅ 환경 설정, 사이트 골격, 5개 Placeholder, GitHub Pages 배포 |
+| ~W4 (9월 말) | ✅ 환경 설정, 사이트 골격, 5개 Placeholder, 옛 블로그 419편 Archive 이관, GitHub Pages 배포 (2026-09-28) |
 | W5–W6 | Time Machine Investor MVP (가장 시연 효과 큼: 입력 → 결과 → 공유) |
 | W7–W8 | Broker Atlas MVP (증권사 수익구조 시각화, 차트 라이브러리 결정) |
 | W9 | Hero Lab 큐레이션 MVP (사용자 유형 × 화면 매트릭스) |
