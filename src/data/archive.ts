@@ -15,11 +15,19 @@ export function getArchivePost(slug: string | undefined): ArchivePost | undefine
 // Markdown 본문은 필요할 때만 로드한다 (글마다 별도 청크).
 const markdownModules = import.meta.glob('/content/archive/**/*.md', { query: '?raw', import: 'default' })
 
-export async function loadArchiveMarkdown(post: ArchivePost): Promise<string> {
-  const loader = markdownModules[`/content/archive/${post.file}`]
-  if (!loader) throw new Error(`archive file not found: ${post.file}`)
-  const raw = (await loader()) as string
-  return stripFrontMatter(raw)
+const markdownCache = new Map<string, Promise<string>>()
+
+// 같은 글은 같은 Promise를 돌려준다 — React `use()`가 렌더마다 새 Promise를 받지 않도록.
+export function loadArchiveMarkdown(post: ArchivePost): Promise<string> {
+  let promise = markdownCache.get(post.file)
+  if (!promise) {
+    const loader = markdownModules[`/content/archive/${post.file}`]
+    promise = loader
+      ? loader().then((raw) => stripFrontMatter(raw as string))
+      : Promise.reject(new Error(`archive file not found: ${post.file}`))
+    markdownCache.set(post.file, promise)
+  }
+  return promise
 }
 
 function stripFrontMatter(raw: string): string {
