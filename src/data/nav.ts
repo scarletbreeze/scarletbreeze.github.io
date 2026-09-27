@@ -8,5 +8,6 @@ export const navItems: NavItem[] = [
   { to: '/research', label: 'Research' },
   { to: '/notes', label: 'Notes' },
   { to: '/blog', label: 'Blog' },
+  { to: '/archive', label: 'Archive' },
   { to: '/about', label: 'About' },
 ]

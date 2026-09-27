@@ -18,7 +18,7 @@
 
 ## 코드 규칙
 
-- **의존성 추가 금지(기본값).** 새 패키지가 필요하면 먼저 `docs/decisions.md`에 이유를 적는다. 현재 허용: `react`, `react-dom`, `react-router-dom`. 차트가 필요해지면 `recharts` 또는 `d3` 중 하나.
+- **의존성 추가 금지(기본값).** 새 패키지가 필요하면 먼저 `docs/decisions.md`에 이유를 적는다. 현재 허용: `react`, `react-dom`, `react-router-dom`, `marked`. 차트가 필요해지면 `recharts` 또는 `d3` 중 하나.
 - **추상화를 위한 추상화 금지.** 두 번 이상 반복될 때 컴포넌트/훅으로 뽑는다.
 - **프로젝트별 코드는 `src/projects/<slug>/` 안에만** 둔다. 프로젝트 간 직접 import 금지 — 공통이 필요하면 `src/components/`로 올린다.
 - **데이터는 `data/`에서 import.** 컴포넌트 안에 목록·문구를 하드코딩하지 않는다. (`@data/*` alias)

@@ -9,6 +9,7 @@
 | 파일 | 용도 | 상태 |
 |---|---|---|
 | `data/projects.json` | 5개 프로젝트 메타 (카드·상세·네비) | ✅ |
+| `data/archive/index.json` | 옛 블로그 419편 목록 메타 (`scripts/migrate_legacy_posts.py` 생성) | ✅ |
 | `data/brokers/` | 증권사 수익구조 (Broker Atlas, Tycoon) | 예정 |
 | `data/markets/` | 가격 시계열 (Time Machine) | 예정 |
 | `data/voc/` | 고객 문의 샘플 (VOC Studio) | 예정 (Mock 먼저) |

@@ -1,0 +1,18 @@
+.markdown { max-width: 72ch; line-height: 1.75; }
+.markdown h1, .markdown h2, .markdown h3 { margin-top: var(--space-6); }
+.markdown img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
+.markdown pre {
+  overflow-x: auto; padding: var(--space-4); border-radius: var(--radius-sm);
+  background: var(--surface); border: 1px solid var(--border); font-size: 0.875rem;
+}
+.markdown code { font-family: var(--font-mono); font-size: 0.9em; }
+.markdown :not(pre) > code {
+  padding: 1px 5px; border-radius: 4px; background: var(--surface); border: 1px solid var(--border);
+}
+.markdown blockquote {
+  margin: var(--space-4) 0; padding: var(--space-2) var(--space-4);
+  border-left: 3px solid var(--accent); color: var(--text-muted);
+}
+.markdown table { border-collapse: collapse; display: block; overflow-x: auto; }
+.markdown th, .markdown td { border: 1px solid var(--border); padding: var(--space-1) var(--space-3); }
+.markdown a { color: var(--accent); text-decoration: underline; }

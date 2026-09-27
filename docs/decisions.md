@@ -34,3 +34,15 @@
 - **Why**: macOS 14.5는 Homebrew 지원 범위 밖이라 `brew install node`가 소스 빌드로 넘어감(30분+).
 - **Alternative**: brew, 공식 .pkg.
 - **Why rejected**: brew는 위 이유. .pkg는 버전 전환이 불편.
+
+## 2026-09-28 — 옛 블로그 419편은 전부 `/archive`로 이관 (옵션 A)
+- **Decision**: Jekyll `_posts` 전체를 `content/archive/<year>/<slug>.md`로 옮기고, 목록 메타는 `data/archive/index.json`, 로컬 이미지는 `public/legacy/`에 둔다. 옛 URL(`/articles/…`)은 유지하지 않는다(사용자 확인). 이관 스크립트: `scripts/migrate_legacy_posts.py`.
+- **Why**: Markdown이라 이관 비용이 낮고, "2017년부터의 기록 위에 세운 연구소"라는 서사가 생긴다. Data First — 글은 `content/`, UI는 `src/`.
+- **Alternative**: 시리즈 선별 이관(B) / 미이관(C).
+- **Why rejected**: 선별 기준을 정하는 비용이 이관 비용보다 크다. 나중에 숨기고 싶은 글은 index.json에서 빼면 된다.
+
+## 2026-09-28 — Markdown 렌더링은 `marked` (클라이언트), 본문은 글별 lazy chunk
+- **Decision**: 두 번째 의존성으로 `marked` 추가. 본문은 `import.meta.glob('…/*.md', { query: '?raw' })`로 글마다 별도 청크로 분리해 열 때만 로드. 목록은 `index.json`만 사용.
+- **Why**: 419편을 한 번들에 넣으면 초기 로드가 무거워진다. `marked`는 의존성 0개, 소형, GFM 지원. 저장소 내부 Markdown만 렌더링하므로 sanitizer는 붙이지 않는다(외부 입력 렌더링 시 재검토).
+- **Alternative**: `react-markdown`(+remark 생태계), 빌드 타임 HTML 사전 렌더링.
+- **Why rejected**: react-markdown은 의존성 트리가 크다. 사전 렌더링은 스크립트가 하나 더 늘고, 지금 규모에선 클라이언트 파싱으로 충분. 코드 하이라이트·검색이 필요해지면 그때 재검토.

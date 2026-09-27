@@ -9,3 +9,5 @@
 - 디자인 토큰(`tokens.css`, 라이트/다크), 반응형 1 브레이크포인트
 - GitHub Pages 배포 워크플로 + SPA 404 폴백 (배포 대상: scarletbreeze.github.io 루트)
 - 문서: AGENTS.md, charter, architecture, design system, data strategy, roadmap, decisions
+- 옛 Jekyll 블로그 419편 이관 → `/archive`, `/archive/:slug` (연도 필터, lazy Markdown 로드), `marked` 추가
+- `scripts/migrate_legacy_posts.py`, `data/archive/index.json`, `public/legacy/` 이미지

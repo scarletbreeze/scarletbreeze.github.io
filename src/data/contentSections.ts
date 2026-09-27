@@ -23,7 +23,7 @@ export const contentSections: Record<ContentSectionKey, ContentSectionMeta> = {
   blog: {
     eyebrow: 'Blog',
     title: '개발 블로그',
-    description: 'Hero Lab을 만들며 남기는 기록. 기존 블로그 글도 이곳으로 옮겨올 예정.',
+    description: 'Hero Lab을 만들며 남기는 기록. 2017–2019년 글은 Archive에 있다.',
     emptyMessage: '첫 글을 준비 중입니다. content/posts/에 쌓입니다.',
   },
 }

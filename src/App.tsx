@@ -4,6 +4,8 @@ import Home from '@/pages/Home'
 import ProjectsIndex from '@/pages/ProjectsIndex'
 import ProjectDetail from '@/pages/ProjectDetail'
 import ContentSection from '@/pages/ContentSection'
+import ArchiveIndex from '@/pages/ArchiveIndex'
+import ArchivePost from '@/pages/ArchivePost'
 import About from '@/pages/About'
 import NotFound from '@/pages/NotFound'
 
@@ -18,6 +20,8 @@ export default function App() {
         <Route path="research" element={<ContentSection section="research" />} />
         <Route path="notes" element={<ContentSection section="notes" />} />
         <Route path="blog" element={<ContentSection section="blog" />} />
+        <Route path="archive" element={<ArchiveIndex />} />
+        <Route path="archive/:slug" element={<ArchivePost />} />
         <Route path="about" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Route>

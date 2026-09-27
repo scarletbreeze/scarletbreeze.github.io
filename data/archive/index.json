@@ -1,0 +1,5541 @@
+{
+  "source": "scarletbreeze/scarletbreeze.github.io (Jekyll, 2017–2019) — migrated 2026-09-28",
+  "count": 419,
+  "posts": [
+    {
+      "slug": "2019-11-10-기초통계학1",
+      "title": "기초통계학(1)_통계정의",
+      "date": "2019-11-10",
+      "year": 2019,
+      "tags": [
+        "기초통계학"
+      ],
+      "categories": [
+        "기초통계학"
+      ],
+      "file": "2019/2019-11-10-기초통계학1.md"
+    },
+    {
+      "slug": "2019-09-24-sql1select",
+      "title": "SQL_select",
+      "date": "2019-09-24",
+      "year": 2019,
+      "tags": [
+        "SQL"
+      ],
+      "categories": [
+        "SQL"
+      ],
+      "file": "2019/2019-09-24-sql1select.md"
+    },
+    {
+      "slug": "2019-09-24-sql2submaxmin-group-by",
+      "title": "SQL_(sub,max,min, Group BY)",
+      "date": "2019-09-24",
+      "year": 2019,
+      "tags": [
+        "SQL"
+      ],
+      "categories": [
+        "SQL"
+      ],
+      "file": "2019/2019-09-24-sql2submaxmin-group-by.md"
+    },
+    {
+      "slug": "2019-09-24-sql3is-null",
+      "title": "SQL_(IS_NULL)",
+      "date": "2019-09-24",
+      "year": 2019,
+      "tags": [
+        "SQL"
+      ],
+      "categories": [
+        "SQL"
+      ],
+      "file": "2019/2019-09-24-sql3is-null.md"
+    },
+    {
+      "slug": "2019-09-24-sql4join",
+      "title": "SQL_(JOIN)",
+      "date": "2019-09-24",
+      "year": 2019,
+      "tags": [
+        "SQL"
+      ],
+      "categories": [
+        "SQL"
+      ],
+      "file": "2019/2019-09-24-sql4join.md"
+    },
+    {
+      "slug": "2019-09-24-sql5stringdate",
+      "title": "SQL_(String,Date)",
+      "date": "2019-09-24",
+      "year": 2019,
+      "tags": [
+        "SQL"
+      ],
+      "categories": [
+        "SQL"
+      ],
+      "file": "2019/2019-09-24-sql5stringdate.md"
+    },
+    {
+      "slug": "2019-08-31-boj0과1",
+      "title": "BOJ (0과1) 8111",
+      "date": "2019-08-31",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "8111",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-31-boj0과1.md"
+    },
+    {
+      "slug": "2019-08-31-boj레이저통신",
+      "title": "BOJ (레이저통신) 6087",
+      "date": "2019-08-31",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "6087",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-31-boj레이저통신.md"
+    },
+    {
+      "slug": "2019-08-31-boj로봇청소기",
+      "title": "BOJ (로봇청소기) 4991",
+      "date": "2019-08-31",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "4991",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-31-boj로봇청소기.md"
+    },
+    {
+      "slug": "2019-08-31-boj점프게임",
+      "title": "BOJ 점프게임 15558",
+      "date": "2019-08-31",
+      "year": 2019,
+      "tags": [
+        "15558",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-31-boj점프게임.md"
+    },
+    {
+      "slug": "2019-08-30-boj열쇠",
+      "title": "BOJ (열쇠)9328",
+      "date": "2019-08-30",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "9328",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-30-boj열쇠.md"
+    },
+    {
+      "slug": "2019-08-29-boj숨바꼭질2",
+      "title": "BOJ(숨바꼭질2)(12851)",
+      "date": "2019-08-29",
+      "year": 2019,
+      "tags": [
+        "12851",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-29-boj숨바꼭질2.md"
+    },
+    {
+      "slug": "2019-08-29-boj탈옥",
+      "title": "BOJ 9376(탈옥)",
+      "date": "2019-08-29",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "9376",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-29-boj탈옥.md"
+    },
+    {
+      "slug": "2019-08-28-boj물통",
+      "title": "BOJ(퍼즐)(1525)",
+      "date": "2019-08-28",
+      "year": 2019,
+      "tags": [
+        "1525",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-28-boj물통.md"
+    },
+    {
+      "slug": "2019-08-28-boj퍼즐",
+      "title": "BOJ(물통)(2251)",
+      "date": "2019-08-28",
+      "year": 2019,
+      "tags": [
+        "1525",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-28-boj퍼즐.md"
+    },
+    {
+      "slug": "2019-08-27-bojdslr",
+      "title": "BOJ(DSLR)(9019)",
+      "date": "2019-08-27",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "9019",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-27-bojdslr.md"
+    },
+    {
+      "slug": "2019-08-26-boj맞춰봐",
+      "title": "BOJ(맞춰봐)(1248)",
+      "date": "2019-08-26",
+      "year": 2019,
+      "tags": [
+        "1248",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-26-boj맞춰봐.md"
+    },
+    {
+      "slug": "2019-08-26-boj숨바꼭질4",
+      "title": "BOJ(숨바꼭질4)(19313)",
+      "date": "2019-08-26",
+      "year": 2019,
+      "tags": [
+        "19313",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-26-boj숨바꼭질4.md"
+    },
+    {
+      "slug": "2019-08-26-boj스도쿠",
+      "title": "BOJ(스도쿠)(2580)",
+      "date": "2019-08-26",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "2580",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-26-boj스도쿠.md"
+    },
+    {
+      "slug": "2019-08-26-boj알파벳",
+      "title": "BOJ(알파벳)(1987)",
+      "date": "2019-08-26",
+      "year": 2019,
+      "tags": [
+        "1987",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-26-boj알파벳.md"
+    },
+    {
+      "slug": "2019-08-25-boj단어수학",
+      "title": "BOJ(단어수학)(1339)",
+      "date": "2019-08-25",
+      "year": 2019,
+      "tags": [
+        "1339",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-25-boj단어수학.md"
+    },
+    {
+      "slug": "2019-08-25-boj부등호",
+      "title": "BOJ(부등호)(2529)",
+      "date": "2019-08-25",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "2529",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-25-boj부등호.md"
+    },
+    {
+      "slug": "2019-08-25-boj스타트와링크",
+      "title": "BOJ(스타트와링크)(14889)",
+      "date": "2019-08-25",
+      "year": 2019,
+      "tags": [
+        "14889",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-25-boj스타트와링크.md"
+    },
+    {
+      "slug": "2019-08-24-boj수이어쓰기",
+      "title": "BOJ(수_이어쓰기1)(1748)",
+      "date": "2019-08-24",
+      "year": 2019,
+      "tags": [
+        "1748",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-24-boj수이어쓰기.md"
+    },
+    {
+      "slug": "2019-08-23-boj카잉달력",
+      "title": "BOJ(카잉달력)(6064)",
+      "date": "2019-08-23",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "6064",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-23-boj카잉달력.md"
+    },
+    {
+      "slug": "2019-08-23-it전공준비1소프트웨어공학-블록체인",
+      "title": "IT전공준비_소프트웨어공학/블록체인",
+      "date": "2019-08-23",
+      "year": 2019,
+      "tags": [
+        "Interview"
+      ],
+      "categories": [
+        "Interview"
+      ],
+      "file": "2019/2019-08-23-it전공준비1소프트웨어공학-블록체인.md"
+    },
+    {
+      "slug": "2019-08-22-boj리모컨",
+      "title": "BOJ(리모컨) 12101",
+      "date": "2019-08-22",
+      "year": 2019,
+      "tags": [
+        "12101",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-22-boj리모컨.md"
+    },
+    {
+      "slug": "2019-08-21-boj123더하기5",
+      "title": "BOJ(1,2,3 더하기(5))",
+      "date": "2019-08-21",
+      "year": 2019,
+      "tags": [
+        "15990",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-21-boj123더하기5.md"
+    },
+    {
+      "slug": "2019-08-21-programmers저울",
+      "title": "programmers(88)level_3(저울)",
+      "date": "2019-08-21",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-21-programmers저울.md"
+    },
+    {
+      "slug": "2019-08-20-boj123더하기2",
+      "title": "BOJ(1,2,3 더하기(2)) 12101",
+      "date": "2019-08-20",
+      "year": 2019,
+      "tags": [
+        "12101",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-20-boj123더하기2.md"
+    },
+    {
+      "slug": "2019-08-20-boj1학년",
+      "title": "BOJ(1학년) 5557",
+      "date": "2019-08-20",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "5557",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-20-boj1학년.md"
+    },
+    {
+      "slug": "2019-08-20-boj괄호",
+      "title": "BOJ(괄호) 10422",
+      "date": "2019-08-20",
+      "year": 2019,
+      "tags": [
+        "10422",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-20-boj괄호.md"
+    },
+    {
+      "slug": "2019-08-20-boj기타리스트",
+      "title": "BOJ(기타리스트) 1495",
+      "date": "2019-08-20",
+      "year": 2019,
+      "tags": [
+        "1495",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-20-boj기타리스트.md"
+    },
+    {
+      "slug": "2019-08-19-boj농구경기",
+      "title": "BOJ(농구경기) 1159",
+      "date": "2019-08-19",
+      "year": 2019,
+      "tags": [
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-19-boj농구경기.md"
+    },
+    {
+      "slug": "2019-08-19-boj스티커",
+      "title": "BOJ(스티커) 9465",
+      "date": "2019-08-19",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-19-boj스티커.md"
+    },
+    {
+      "slug": "2019-08-19-boj파일합치기",
+      "title": "BOJ(파일합치기) 11066",
+      "date": "2019-08-19",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-19-boj파일합치기.md"
+    },
+    {
+      "slug": "2019-08-19-boj평범한배낭",
+      "title": "BOJ(평범한배낭) 12865",
+      "date": "2019-08-19",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-19-boj평범한배낭.md"
+    },
+    {
+      "slug": "2019-08-19-programmers거스름돈",
+      "title": "programmers(86)level_3(거스름돈)",
+      "date": "2019-08-19",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-19-programmers거스름돈.md"
+    },
+    {
+      "slug": "2019-08-19-programmers줄서는방법",
+      "title": "programmers(87)level_3(줄서는방법)",
+      "date": "2019-08-19",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-19-programmers줄서는방법.md"
+    },
+    {
+      "slug": "2019-08-18-boj크리보드",
+      "title": "BOJ(크리보드)(11058)",
+      "date": "2019-08-18",
+      "year": 2019,
+      "tags": [
+        "11058",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-18-boj크리보드.md"
+    },
+    {
+      "slug": "2019-08-18-dp복습",
+      "title": "DP복습_ 1,2,3더하기(1,4), 제곱수의 합, 동전 문제(0,1,2)",
+      "date": "2019-08-18",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-18-dp복습.md"
+    },
+    {
+      "slug": "2019-08-17-boj123더하기4",
+      "title": "BOJ(123더하기(4))(15989)",
+      "date": "2019-08-17",
+      "year": 2019,
+      "tags": [
+        "15989",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-17-boj123더하기4.md"
+    },
+    {
+      "slug": "2019-08-17-bojn-queen",
+      "title": "BOJ(N-Queen)(9663)",
+      "date": "2019-08-17",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "9663",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-17-bojn-queen.md"
+    },
+    {
+      "slug": "2019-08-17-boj동전12",
+      "title": "BOJ(동전1,2)(2293)(2294)",
+      "date": "2019-08-17",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_연습",
+        "2293",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-17-boj동전12.md"
+    },
+    {
+      "slug": "2019-08-17-boj팰린드롬",
+      "title": "BOJ(팰린드롬)(10942)",
+      "date": "2019-08-17",
+      "year": 2019,
+      "tags": [
+        "10942",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-17-boj팰린드롬.md"
+    },
+    {
+      "slug": "2019-08-17-programmers가장먼노드",
+      "title": "programmers(85)level_3(가장 먼 노드)",
+      "date": "2019-08-17",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-17-programmers가장먼노드.md"
+    },
+    {
+      "slug": "2019-08-16-boj이동하기",
+      "title": "BOJ(이동하기)(11048)",
+      "date": "2019-08-16",
+      "year": 2019,
+      "tags": [
+        "11048",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-16-boj이동하기.md"
+    },
+    {
+      "slug": "2019-08-16-boj점프",
+      "title": "BOJ(점프)(1890)",
+      "date": "2019-08-16",
+      "year": 2019,
+      "tags": [
+        "1890",
+        "2019(백준)SW준비_연습",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-16-boj점프.md"
+    },
+    {
+      "slug": "2019-08-15-bojrgb거리",
+      "title": "BOJ(RGB거리)(1149)",
+      "date": "2019-08-15",
+      "year": 2019,
+      "tags": [
+        "1149",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-15-bojrgb거리.md"
+    },
+    {
+      "slug": "2019-08-15-boj동물원1309",
+      "title": "BOJ(동물원)(1309)",
+      "date": "2019-08-15",
+      "year": 2019,
+      "tags": [
+        "1932",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-15-boj동물원1309.md"
+    },
+    {
+      "slug": "2019-08-15-boj연속합",
+      "title": "BOJ(연속합)(1912)",
+      "date": "2019-08-15",
+      "year": 2019,
+      "tags": [
+        "1912",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-15-boj연속합.md"
+    },
+    {
+      "slug": "2019-08-15-boj정수삼각형",
+      "title": "BOJ(정수삼각형)(1932)",
+      "date": "2019-08-15",
+      "year": 2019,
+      "tags": [
+        "1932",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-15-boj정수삼각형.md"
+    },
+    {
+      "slug": "2019-08-14-boj123더하기3",
+      "title": "BOJ(1,2,3더하기)(3)(15988)",
+      "date": "2019-08-14",
+      "year": 2019,
+      "tags": [
+        "15988",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-14-boj123더하기3.md"
+    },
+    {
+      "slug": "2019-08-14-boj가장-긴-증가하는-부분-수열",
+      "title": "BOJ(가장 긴 증가하는 부분 수열)(11053)",
+      "date": "2019-08-14",
+      "year": 2019,
+      "tags": [
+        "11053",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-14-boj가장-긴-증가하는-부분-수열.md"
+    },
+    {
+      "slug": "2019-08-14-boj쉬운계단-수",
+      "title": "BOJ(쉬운계단 수)(10844)",
+      "date": "2019-08-14",
+      "year": 2019,
+      "tags": [
+        "10844",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-14-boj쉬운계단-수.md"
+    },
+    {
+      "slug": "2019-08-14-boj오르막-수",
+      "title": "BOJ(오르막 수)(11057)",
+      "date": "2019-08-14",
+      "year": 2019,
+      "tags": [
+        "11057",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-14-boj오르막-수.md"
+    },
+    {
+      "slug": "2019-08-14-boj이친수",
+      "title": "BOJ(이친수)(2193)",
+      "date": "2019-08-14",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_기초",
+        "2193",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-14-boj이친수.md"
+    },
+    {
+      "slug": "2019-08-14-boj카드구매하기",
+      "title": "BOJ(카드 구매하기)(11052)",
+      "date": "2019-08-14",
+      "year": 2019,
+      "tags": [
+        "11052",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-14-boj카드구매하기.md"
+    },
+    {
+      "slug": "2019-08-14-boj카드구매하기2",
+      "title": "BOJ(카드 구매하기2)(16194)",
+      "date": "2019-08-14",
+      "year": 2019,
+      "tags": [
+        "16194",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-14-boj카드구매하기2.md"
+    },
+    {
+      "slug": "2019-08-14-boj포도주-시식",
+      "title": "BOJ(포도주 시식)(2156)",
+      "date": "2019-08-14",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_기초",
+        "2156",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-14-boj포도주-시식.md"
+    },
+    {
+      "slug": "2019-08-13-boj1로만들기",
+      "title": "BOJ(1로만들기)",
+      "date": "2019-08-13",
+      "year": 2019,
+      "tags": [
+        "1463",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-13-boj1로만들기.md"
+    },
+    {
+      "slug": "2019-08-13-boj2xn타일링12",
+      "title": "BOJ(2Xn타일링)(1,2)",
+      "date": "2019-08-13",
+      "year": 2019,
+      "tags": [
+        "11726",
+        "11727",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DP",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-13-boj2xn타일링12.md"
+    },
+    {
+      "slug": "2019-08-13-bojdfs와bfs",
+      "title": "BOJ(DFS와BFS)",
+      "date": "2019-08-13",
+      "year": 2019,
+      "tags": [
+        "1260",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "algorithm",
+        "그래프와BFS"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-13-bojdfs와bfs.md"
+    },
+    {
+      "slug": "2019-08-13-boj단지번호붙이기",
+      "title": "BOJ(단지번호붙이기)",
+      "date": "2019-08-13",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_기초",
+        "2667",
+        "BOJ",
+        "algorithm",
+        "그래프와BFS"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-13-boj단지번호붙이기.md"
+    },
+    {
+      "slug": "2019-08-13-boj미로탐색",
+      "title": "BOJ(미로탐색)(2178)",
+      "date": "2019-08-13",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_기초",
+        "2178",
+        "BOJ",
+        "algorithm",
+        "그래프와BFS"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-13-boj미로탐색.md"
+    },
+    {
+      "slug": "2019-08-13-boj섬의개수",
+      "title": "BOJ(섬의 개수) 4963",
+      "date": "2019-08-13",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_기초",
+        "4963",
+        "BOJ",
+        "algorithm",
+        "그래프와BFS"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-13-boj섬의개수.md"
+    },
+    {
+      "slug": "2019-08-13-boj연결요소",
+      "title": "BOJ(연결 요소의개수)11724",
+      "date": "2019-08-13",
+      "year": 2019,
+      "tags": [
+        "11724",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "DFS/BFS",
+        "algorithm",
+        "그래프와BFS"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-13-boj연결요소.md"
+    },
+    {
+      "slug": "2019-08-13-boj이분그래프다음에다시",
+      "title": "BOJ(이분그래프)(다음에다시)",
+      "date": "2019-08-13",
+      "year": 2019,
+      "tags": [
+        "1707",
+        "BOJ",
+        "algorithm",
+        "그래프와BFS"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-13-boj이분그래프다음에다시.md"
+    },
+    {
+      "slug": "2019-08-13-boj정렬",
+      "title": "BOJ(정렬)5문제",
+      "date": "2019-08-13",
+      "year": 2019,
+      "tags": [
+        "BOJ",
+        "algorithm",
+        "정렬"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-13-boj정렬.md"
+    },
+    {
+      "slug": "2019-08-12-bojabcde",
+      "title": "BOJ(ABCDE)",
+      "date": "2019-08-12",
+      "year": 2019,
+      "tags": [
+        "13023",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "algorithm",
+        "그래프와BFS"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-12-bojabcde.md"
+    },
+    {
+      "slug": "2019-08-12-boj기분전환코딩",
+      "title": "BOJ(기분전환코딩)",
+      "date": "2019-08-12",
+      "year": 2019,
+      "tags": [
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-12-boj기분전환코딩.md"
+    },
+    {
+      "slug": "2019-08-11-bojn과m2-12",
+      "title": "BOJ(N과M)(2-12)",
+      "date": "2019-08-11",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "N과M",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-11-bojn과m2-12.md"
+    },
+    {
+      "slug": "2019-08-11-boj로또",
+      "title": "BOJ(로또) 6603",
+      "date": "2019-08-11",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_기초",
+        "6603",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-11-boj로또.md"
+    },
+    {
+      "slug": "2019-08-11-boj부분수열의합1182",
+      "title": "BOJ 부분수열의 합 (1182)",
+      "date": "2019-08-11",
+      "year": 2019,
+      "tags": [
+        "1182",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-11-boj부분수열의합1182.md"
+    },
+    {
+      "slug": "2019-08-11-boj암호만들기",
+      "title": "BOJ(암호만들기) 1759",
+      "date": "2019-08-11",
+      "year": 2019,
+      "tags": [
+        "1759",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-11-boj암호만들기.md"
+    },
+    {
+      "slug": "2019-08-11-boj좋은수열2661",
+      "title": "(BOJ)기초(브루트포스)(11) 좋은수열 (2661)",
+      "date": "2019-08-11",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_기초",
+        "2661",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-11-boj좋은수열2661.md"
+    },
+    {
+      "slug": "2019-08-11-boj퇴사14501",
+      "title": "(BOJ)기초(브루트포스)(12) 퇴사 (14501)",
+      "date": "2019-08-11",
+      "year": 2019,
+      "tags": [
+        "14501",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-11-boj퇴사14501.md"
+    },
+    {
+      "slug": "2019-08-10-boj날짜계산",
+      "title": "BOJ(날짜계산) 1476",
+      "date": "2019-08-10",
+      "year": 2019,
+      "tags": [
+        "1476",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-10-boj날짜계산.md"
+    },
+    {
+      "slug": "2019-08-10-boj별찍기1",
+      "title": "(BOJ)별찍기 1~",
+      "date": "2019-08-10",
+      "year": 2019,
+      "tags": [
+        "BOJ",
+        "algorithm",
+        "별찍기"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-10-boj별찍기1.md"
+    },
+    {
+      "slug": "2019-08-10-boj브루트포스테스트대비-기초4",
+      "title": "(BOJ)기초(브루트포스)(4) 1,2,3더하기 9095",
+      "date": "2019-08-10",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_기초",
+        "9095",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-10-boj브루트포스테스트대비-기초4.md"
+    },
+    {
+      "slug": "2019-08-10-boj브루트포스테스트대비-기초5",
+      "title": "(BOJ)기초(브루트포스)(5) 다음 순열 10972",
+      "date": "2019-08-10",
+      "year": 2019,
+      "tags": [
+        "10972",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-10-boj브루트포스테스트대비-기초5.md"
+    },
+    {
+      "slug": "2019-08-10-boj브루트포스테스트대비-기초6",
+      "title": "(BOJ)기초(브루트포스)(6) 이전 순열 10973",
+      "date": "2019-08-10",
+      "year": 2019,
+      "tags": [
+        "10973",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-10-boj브루트포스테스트대비-기초6.md"
+    },
+    {
+      "slug": "2019-08-10-boj브루트포스테스트대비-기초7",
+      "title": "(BOJ)기초(브루트포스)(7) 모든 순열 10974",
+      "date": "2019-08-10",
+      "year": 2019,
+      "tags": [
+        "10974",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-10-boj브루트포스테스트대비-기초7.md"
+    },
+    {
+      "slug": "2019-08-10-boj브루트포스테스트대비-기초8",
+      "title": "(BOJ)차이를 최대로 10819",
+      "date": "2019-08-10",
+      "year": 2019,
+      "tags": [
+        "10819",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-10-boj브루트포스테스트대비-기초8.md"
+    },
+    {
+      "slug": "2019-08-10-boj일곱난쟁이",
+      "title": "BOJ(일곱난쟁이) 2309",
+      "date": "2019-08-10",
+      "year": 2019,
+      "tags": [
+        "2019(백준)SW준비_기초",
+        "2309",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-10-boj일곱난쟁이.md"
+    },
+    {
+      "slug": "2019-08-10-boj테르토미노다음에다시",
+      "title": "BOJ(테르토미노)(다시) 14500",
+      "date": "2019-08-10",
+      "year": 2019,
+      "tags": [
+        "14500",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-10-boj테르토미노다음에다시.md"
+    },
+    {
+      "slug": "2019-08-09-bojn과m1",
+      "title": "BOJ(N과M)(1)",
+      "date": "2019-08-09",
+      "year": 2019,
+      "tags": [
+        "15649",
+        "2019(백준)SW준비_기초",
+        "BOJ",
+        "N과M",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-09-bojn과m1.md"
+    },
+    {
+      "slug": "2019-08-09-boj수학테스트대비-기초",
+      "title": "(BOJ)2019 SW테스트 - 기초(수학)(1~6)",
+      "date": "2019-08-09",
+      "year": 2019,
+      "tags": [
+        "1934",
+        "1978",
+        "2019(백준)SW준비_기초",
+        "2609",
+        "3052",
+        "6588",
+        "9613",
+        "BOJ",
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-09-boj수학테스트대비-기초.md"
+    },
+    {
+      "slug": "2019-08-08-swe완전검색",
+      "title": "SWE(완전검색)",
+      "date": "2019-08-08",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-08-swe완전검색.md"
+    },
+    {
+      "slug": "2019-08-08-swe전자카트",
+      "title": "SWE(전자카트)",
+      "date": "2019-08-08",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-08-swe전자카트.md"
+    },
+    {
+      "slug": "2019-08-08-swe최소합",
+      "title": "SWE(최소합)",
+      "date": "2019-08-08",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-08-swe최소합.md"
+    },
+    {
+      "slug": "2019-08-08-programmers82디스크컨트롤러",
+      "title": "programmers(82)level_3(디스크컨트롤러)",
+      "date": "2019-08-08",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-08-programmers82디스크컨트롤러.md"
+    },
+    {
+      "slug": "2019-08-08-programmers83가장-긴-팰린드롬",
+      "title": "programmers(83)level_3(가장_긴_팰린드롬)",
+      "date": "2019-08-08",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-08-programmers83가장-긴-팰린드롬.md"
+    },
+    {
+      "slug": "2019-08-08-programmers84최고의집합",
+      "title": "programmers(84)level_3(최고의집합)",
+      "date": "2019-08-08",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-08-programmers84최고의집합.md"
+    },
+    {
+      "slug": "2019-08-08-고득점키트정렬",
+      "title": "programmers_고득점키트(정렬)",
+      "date": "2019-08-08",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "programmers",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-08-고득점키트정렬.md"
+    },
+    {
+      "slug": "2019-08-08-고득점키트힙정렬",
+      "title": "programmers_고득점키트(힙정렬)",
+      "date": "2019-08-08",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "programmers",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-08-고득점키트힙정렬.md"
+    },
+    {
+      "slug": "2019-08-07-programmers79정수삼각형",
+      "title": "programmers(79)level_3(정수삼각형)",
+      "date": "2019-08-07",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-07-programmers79정수삼각형.md"
+    },
+    {
+      "slug": "2019-08-07-programmers80등굣길",
+      "title": "programmers(80)level_3(등굣길)",
+      "date": "2019-08-07",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-07-programmers80등굣길.md"
+    },
+    {
+      "slug": "2019-08-07-programmers81이중우선순위큐",
+      "title": "programmers(81)level_3(이중우선순위큐)",
+      "date": "2019-08-07",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-07-programmers81이중우선순위큐.md"
+    },
+    {
+      "slug": "2019-08-06-swe5185이진수",
+      "title": "SWE(5185)이진수",
+      "date": "2019-08-06",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-06-swe5185이진수.md"
+    },
+    {
+      "slug": "2019-08-06-swe5186이진수2",
+      "title": "SWE(5186)이진수2",
+      "date": "2019-08-06",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-06-swe5186이진수2.md"
+    },
+    {
+      "slug": "2019-08-06-programmers76단속카메라",
+      "title": "programmers(76)level_3(단속 카메라)",
+      "date": "2019-08-06",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-06-programmers76단속카메라.md"
+    },
+    {
+      "slug": "2019-08-06-programmers77멀리뛰기",
+      "title": "programmers(77)level_3(멀리뛰기)",
+      "date": "2019-08-06",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-06-programmers77멀리뛰기.md"
+    },
+    {
+      "slug": "2019-08-06-programmers78야근지수",
+      "title": "programmers(78)level_3(야근지수)",
+      "date": "2019-08-06",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-06-programmers78야근지수.md"
+    },
+    {
+      "slug": "2019-08-06-고득점키트스택큐",
+      "title": "programmers_고득점키트(스택,큐)",
+      "date": "2019-08-06",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "programmers",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-06-고득점키트스택큐.md"
+    },
+    {
+      "slug": "2019-08-05-swe토너먼트배열최소합복습",
+      "title": "SWE(토너먼트,배열최소합)복습",
+      "date": "2019-08-05",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey",
+        "intermediate"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-05-swe토너먼트배열최소합복습.md"
+    },
+    {
+      "slug": "2019-08-05-programmers742xn-타일링",
+      "title": "programmers(74)level_3(2xn타일링)",
+      "date": "2019-08-05",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-05-programmers742xn-타일링.md"
+    },
+    {
+      "slug": "2019-08-05-programmers75타일장식물",
+      "title": "programmers(75)level_3(타일장식물)",
+      "date": "2019-08-05",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-05-programmers75타일장식물.md"
+    },
+    {
+      "slug": "2019-08-05-고득점키트해시",
+      "title": "programmers_고득점키트(해시)",
+      "date": "2019-08-05",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "programmers",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-05-고득점키트해시.md"
+    },
+    {
+      "slug": "2019-08-04-swedfsbfs복습",
+      "title": "SWE(DFS,BFS)_python_intermediate_4문제복습",
+      "date": "2019-08-04",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey",
+        "intermediate"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-04-swedfsbfs복습.md"
+    },
+    {
+      "slug": "2019-08-03-swe1979어디에단어가들어갈수있을까",
+      "title": "SWE(5110)_어디에_단어가_들어갈_수_있을까",
+      "date": "2019-08-03",
+      "year": 2019,
+      "tags": [
+        "D2",
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-03-swe1979어디에단어가들어갈수있을까.md"
+    },
+    {
+      "slug": "2019-08-03-swe5986새샘이와세소수",
+      "title": "SWE(5986)새샘이와_세_소수",
+      "date": "2019-08-03",
+      "year": 2019,
+      "tags": [
+        "D3",
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-03-swe5986새샘이와세소수.md"
+    },
+    {
+      "slug": "2019-08-03-programmers73예산",
+      "title": "programmers(73)level_3(예산)",
+      "date": "2019-08-03",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-03-programmers73예산.md"
+    },
+    {
+      "slug": "2019-08-02-programmers71네트워크",
+      "title": "programmers(71)level_3(네트워크)",
+      "date": "2019-08-02",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-02-programmers71네트워크.md"
+    },
+    {
+      "slug": "2019-08-02-programmers72단어변환",
+      "title": "programmers(72)level_3(단어변환)",
+      "date": "2019-08-02",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-02-programmers72단어변환.md"
+    },
+    {
+      "slug": "2019-08-02-고득점키트dfsbfs",
+      "title": "programmers_고득점키트(DFS,BFS)",
+      "date": "2019-08-02",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "programmers",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-02-고득점키트dfsbfs.md"
+    },
+    {
+      "slug": "2019-08-01-swe숫자추가",
+      "title": "SWE(5108)_숫자추가",
+      "date": "2019-08-01",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-01-swe숫자추가.md"
+    },
+    {
+      "slug": "2019-08-01-swe5110수열합치기",
+      "title": "SWE(5110)_수열합치기",
+      "date": "2019-08-01",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-01-swe5110수열합치기.md"
+    },
+    {
+      "slug": "2019-08-01-programmers68행렬의곱셈",
+      "title": "programmers(68)level_2(행렬의곱셈)",
+      "date": "2019-08-01",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-01-programmers68행렬의곱셈.md"
+    },
+    {
+      "slug": "2019-08-01-programmers69소수찾기",
+      "title": "programmers(69)level_2(소수찾기)",
+      "date": "2019-08-01",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-01-programmers69소수찾기.md"
+    },
+    {
+      "slug": "2019-08-01-programmers70조이스틱",
+      "title": "programmers(70)level_2(조이스틱)",
+      "date": "2019-08-01",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-08-01-programmers70조이스틱.md"
+    },
+    {
+      "slug": "2019-07-31-swe5099피자굽기",
+      "title": "SWE(5099)_피자굽기",
+      "date": "2019-07-31",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-31-swe5099피자굽기.md"
+    },
+    {
+      "slug": "2019-07-31-swe5102노드의거리",
+      "title": "SWE(5102)_노드의거리",
+      "date": "2019-07-31",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-31-swe5102노드의거리.md"
+    },
+    {
+      "slug": "2019-07-31-programmers63영어끝말잇기",
+      "title": "programmers(63)level_2(영어끝말잇기)",
+      "date": "2019-07-31",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-31-programmers63영어끝말잇기.md"
+    },
+    {
+      "slug": "2019-07-31-programmers64점프와순간이동",
+      "title": "programmers(64)level_2(점프와순간이동)",
+      "date": "2019-07-31",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-31-programmers64점프와순간이동.md"
+    },
+    {
+      "slug": "2019-07-31-programmers65소수만들기",
+      "title": "programmers(65)level_2(소수만들기)",
+      "date": "2019-07-31",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-31-programmers65소수만들기.md"
+    },
+    {
+      "slug": "2019-07-31-programmers66n개의-최소공배수",
+      "title": "programmers(66)level_2(N개의_최소공배수)",
+      "date": "2019-07-31",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-31-programmers66n개의-최소공배수.md"
+    },
+    {
+      "slug": "2019-07-31-programmers67짝지어제거하기",
+      "title": "programmers(67)level_2(짝지어제거하기)",
+      "date": "2019-07-31",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-31-programmers67짝지어제거하기.md"
+    },
+    {
+      "slug": "2019-07-30-swe4880토너먼트카드게임",
+      "title": "SWE(4880)_토너먼트 카드게임",
+      "date": "2019-07-30",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-30-swe4880토너먼트카드게임.md"
+    },
+    {
+      "slug": "2019-07-30-swe5097회전",
+      "title": "SWE(5097)_회전",
+      "date": "2019-07-30",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-30-swe5097회전.md"
+    },
+    {
+      "slug": "2019-07-30-swe5105미로의거리",
+      "title": "SWE(5105)_미로의거리",
+      "date": "2019-07-30",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-30-swe5105미로의거리.md"
+    },
+    {
+      "slug": "2019-07-30-programmers61타겟넘버",
+      "title": "programmers(61)level_2(타겟넘버)",
+      "date": "2019-07-30",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-30-programmers61타겟넘버.md"
+    },
+    {
+      "slug": "2019-07-30-programmers62예상대진표",
+      "title": "programmers(62)level_2(예상대진표)",
+      "date": "2019-07-30",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-30-programmers62예상대진표.md"
+    },
+    {
+      "slug": "2019-07-29-programmers60땅따먹기",
+      "title": "programmers(60)level_2(땅따먹기)",
+      "date": "2019-07-29",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-29-programmers60땅따먹기.md"
+    },
+    {
+      "slug": "2019-07-28-programmers54숫자의표현",
+      "title": "programmers(54)level_2(숫자의표현)",
+      "date": "2019-07-28",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-28-programmers54숫자의표현.md"
+    },
+    {
+      "slug": "2019-07-28-programmers55최솟값만들기",
+      "title": "programmers(55)level_2(최솟값만들기)",
+      "date": "2019-07-28",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-28-programmers55최솟값만들기.md"
+    },
+    {
+      "slug": "2019-07-28-programmers56피보나치수",
+      "title": "programmers(56)level_2(피보나치수)",
+      "date": "2019-07-28",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-28-programmers56피보나치수.md"
+    },
+    {
+      "slug": "2019-07-28-programmers57폰켓몬",
+      "title": "programmers(57)level_2(폰켓몬)",
+      "date": "2019-07-28",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-28-programmers57폰켓몬.md"
+    },
+    {
+      "slug": "2019-07-28-programmers58jadencase문자열만들기",
+      "title": "programmers(58)level_2(JadenCase문자열만들기)",
+      "date": "2019-07-28",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-28-programmers58jadencase문자열만들기.md"
+    },
+    {
+      "slug": "2019-07-28-programmers59가장큰정사각형찾기",
+      "title": "programmers(59)level_2(가장_큰_정사각형_찾기)",
+      "date": "2019-07-28",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-28-programmers59가장큰정사각형찾기.md"
+    },
+    {
+      "slug": "2019-07-27-programmers52다음큰숫자",
+      "title": "programmers(52)level_2(다음큰숫자)",
+      "date": "2019-07-27",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-27-programmers52다음큰숫자.md"
+    },
+    {
+      "slug": "2019-07-27-programmers53최댓값과최솟값",
+      "title": "programmers(53)level_2(최댓값과최솟값)",
+      "date": "2019-07-27",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-27-programmers53최댓값과최솟값.md"
+    },
+    {
+      "slug": "2019-07-26-programmers48구명보트",
+      "title": "programmers(48)level_2(구명보트)",
+      "date": "2019-07-26",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-26-programmers48구명보트.md"
+    },
+    {
+      "slug": "2019-07-26-programmers49올바른괄호",
+      "title": "programmers(49)level_2(올바른괄호)",
+      "date": "2019-07-26",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-26-programmers49올바른괄호.md"
+    },
+    {
+      "slug": "2019-07-26-programmers50숫자야구게임",
+      "title": "programmers(50)level_2(숫자야구게임)",
+      "date": "2019-07-26",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-26-programmers50숫자야구게임.md"
+    },
+    {
+      "slug": "2019-07-26-programmers51카펫",
+      "title": "programmers(51)level_2(카펫)",
+      "date": "2019-07-26",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-26-programmers51카펫.md"
+    },
+    {
+      "slug": "2019-07-26-pythonkit문제풀이7dfsbfs여행경로",
+      "title": "파이썬_고득점키트_문제풀이(7)DFS,BFS_여행경로",
+      "date": "2019-07-26",
+      "year": 2019,
+      "tags": [
+        "python",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-26-pythonkit문제풀이7dfsbfs여행경로.md"
+    },
+    {
+      "slug": "2019-07-25-programmers45라면공장",
+      "title": "programmers(45)level_2(라면공장)",
+      "date": "2019-07-25",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-25-programmers45라면공장.md"
+    },
+    {
+      "slug": "2019-07-25-programmers46쇠막대기",
+      "title": "programmers(46)level_2(쇠막대기)",
+      "date": "2019-07-25",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-25-programmers46쇠막대기.md"
+    },
+    {
+      "slug": "2019-07-25-programmers47h-indx",
+      "title": "programmers(47)level_2(H-indx)",
+      "date": "2019-07-25",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-25-programmers47h-indx.md"
+    },
+    {
+      "slug": "2019-07-25-pythonkit문제풀이5더맵게",
+      "title": "파이썬_고득점키트_문제풀이(5)-힙정렬-더맵게",
+      "date": "2019-07-25",
+      "year": 2019,
+      "tags": [
+        "python",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-25-pythonkit문제풀이5더맵게.md"
+    },
+    {
+      "slug": "2019-07-25-pythonkit문제풀이6n으로표현",
+      "title": "파이썬_고득점키트_문제풀이(6)_DP_N으로표현",
+      "date": "2019-07-25",
+      "year": 2019,
+      "tags": [
+        "python",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-25-pythonkit문제풀이6n으로표현.md"
+    },
+    {
+      "slug": "2019-07-24-programmers43기능개발",
+      "title": "programmers(43)level_2(기능개발)",
+      "date": "2019-07-24",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-24-programmers43기능개발.md"
+    },
+    {
+      "slug": "2019-07-24-programmers44다리를지나는트럭",
+      "title": "programmers(44)level_2(다리를지나는트럭)",
+      "date": "2019-07-24",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-24-programmers44다리를지나는트럭.md"
+    },
+    {
+      "slug": "2019-07-24-pythonkit문제풀이4탐욕법큰수",
+      "title": "파이썬_고득점키트_문제풀이(4)_탐욕법_큰수만들기",
+      "date": "2019-07-24",
+      "year": 2019,
+      "tags": [
+        "python",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-24-pythonkit문제풀이4탐욕법큰수.md"
+    },
+    {
+      "slug": "2019-07-23-programmers41프린터",
+      "title": "programmers(41)level_2(프린터)",
+      "date": "2019-07-23",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-23-programmers41프린터.md"
+    },
+    {
+      "slug": "2019-07-23-programmers42스킬트리",
+      "title": "programmers(42)level_2(스킬트리)",
+      "date": "2019-07-23",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-23-programmers42스킬트리.md"
+    },
+    {
+      "slug": "2019-07-23-pythonkit문제풀이2",
+      "title": "파이썬_고득점키트_문제풀이(2)_그리디대표문제",
+      "date": "2019-07-23",
+      "year": 2019,
+      "tags": [
+        "python",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-23-pythonkit문제풀이2.md"
+    },
+    {
+      "slug": "2019-07-23-pythonkit문제풀이3정렬대표문제",
+      "title": "파이썬_고득점키트_문제풀이(3)_정렬",
+      "date": "2019-07-23",
+      "year": 2019,
+      "tags": [
+        "python",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-23-pythonkit문제풀이3정렬대표문제.md"
+    },
+    {
+      "slug": "2019-07-22-programmers37124나라의숫자",
+      "title": "programmers(37)level_2(124나라의숫자)",
+      "date": "2019-07-22",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-22-programmers37124나라의숫자.md"
+    },
+    {
+      "slug": "2019-07-22-programmers38전화번호목록",
+      "title": "programmers(38)level_2(전화번호목록)",
+      "date": "2019-07-22",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-22-programmers38전화번호목록.md"
+    },
+    {
+      "slug": "2019-07-22-programmers39위장",
+      "title": "programmers(39)level_2(위장)",
+      "date": "2019-07-22",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-22-programmers39위장.md"
+    },
+    {
+      "slug": "2019-07-22-programmers40베스트앨범",
+      "title": "programmers(40)level_3(베스트앨범)",
+      "date": "2019-07-22",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level3",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-22-programmers40베스트앨범.md"
+    },
+    {
+      "slug": "2019-07-21-programmers36-탑",
+      "title": "programmers(36)level_2(탑)",
+      "date": "2019-07-21",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-21-programmers36-탑.md"
+    },
+    {
+      "slug": "2019-07-21-pythonkit문제풀이1",
+      "title": "파이썬_고득점키트_문제풀이(1)_해시대표문제",
+      "date": "2019-07-21",
+      "year": 2019,
+      "tags": [
+        "python",
+        "파이썬고득점키트"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-21-pythonkit문제풀이1.md"
+    },
+    {
+      "slug": "2019-07-21-파이썬자료구조20-23",
+      "title": "파이썬자료구조(20-23)이진탐색트리-힙",
+      "date": "2019-07-21",
+      "year": 2019,
+      "tags": [
+        "python",
+        "pythonDataStructure"
+      ],
+      "categories": [
+        "python"
+      ],
+      "file": "2019/2019-07-21-파이썬자료구조20-23.md"
+    },
+    {
+      "slug": "2019-07-20-programmers20-34",
+      "title": "programmers(20-34)level_1완료",
+      "date": "2019-07-20",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level1",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-20-programmers20-34.md"
+    },
+    {
+      "slug": "2019-07-20-programmers35주식가격",
+      "title": "programmers(35)level_2(주식가격)",
+      "date": "2019-07-20",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level2",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-20-programmers35주식가격.md"
+    },
+    {
+      "slug": "2019-07-19-programmers5-가운데-글자-가져오기",
+      "title": "programmers(5)_가운데_글자_가져오기",
+      "date": "2019-07-19",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level1",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-19-programmers5-가운데-글자-가져오기.md"
+    },
+    {
+      "slug": "2019-07-19-programmers6-같은-숫자는-싫어",
+      "title": "programmers(6)_같은_숫자는_싫어",
+      "date": "2019-07-19",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level1",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-19-programmers6-같은-숫자는-싫어.md"
+    },
+    {
+      "slug": "2019-07-19-programmers7-나누어-떨어지는-숫자배열",
+      "title": "programmers(7)_나누어_떨어지는_숫자배열",
+      "date": "2019-07-19",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level1",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-19-programmers7-나누어-떨어지는-숫자배열.md"
+    },
+    {
+      "slug": "2019-07-19-programmers8-19",
+      "title": "programmers(8-19)level_1",
+      "date": "2019-07-19",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level1",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-19-programmers8-19.md"
+    },
+    {
+      "slug": "2019-07-19-파이썬자료구조17-19",
+      "title": "파이썬자료구조(17-19)트리-이진트리",
+      "date": "2019-07-19",
+      "year": 2019,
+      "tags": [
+        "python",
+        "pythonDataStructure"
+      ],
+      "categories": [
+        "python"
+      ],
+      "file": "2019/2019-07-19-파이썬자료구조17-19.md"
+    },
+    {
+      "slug": "2019-07-18-programmers3-k번째수",
+      "title": "programmers(3)_level1_k번째수",
+      "date": "2019-07-18",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level1",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-18-programmers3-k번째수.md"
+    },
+    {
+      "slug": "2019-07-18-programmers4-2016년",
+      "title": "programmers(4)_level1_2016년",
+      "date": "2019-07-18",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level1",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-18-programmers4-2016년.md"
+    },
+    {
+      "slug": "2019-07-18-파이썬자료구조11-16",
+      "title": "파이썬자료구조(11-16)스택-우선순위큐",
+      "date": "2019-07-18",
+      "year": 2019,
+      "tags": [
+        "python",
+        "pythonDataStructure"
+      ],
+      "categories": [
+        "python"
+      ],
+      "file": "2019/2019-07-18-파이썬자료구조11-16.md"
+    },
+    {
+      "slug": "2019-07-17-programmers2-체육복",
+      "title": "programmers(2)_level1_체육복",
+      "date": "2019-07-17",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level1",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-17-programmers2-체육복.md"
+    },
+    {
+      "slug": "2019-07-17-파이썬자료구조10",
+      "title": "파이썬자료구조(10)이중연결리스트",
+      "date": "2019-07-17",
+      "year": 2019,
+      "tags": [
+        "python",
+        "pythonDataStructure"
+      ],
+      "categories": [
+        "python"
+      ],
+      "file": "2019/2019-07-17-파이썬자료구조10.md"
+    },
+    {
+      "slug": "2019-07-16-swe-linkedlist",
+      "title": "SWE_LinkedList",
+      "date": "2019-07-16",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "python"
+      ],
+      "file": "2019/2019-07-16-swe-linkedlist.md"
+    },
+    {
+      "slug": "2019-07-16-programmers1-모의고사",
+      "title": "programmers(1)_level1_모의고사",
+      "date": "2019-07-16",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "level1",
+        "programmers"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-16-programmers1-모의고사.md"
+    },
+    {
+      "slug": "2019-07-16-이진탐색210815",
+      "title": "BJO_10815(이진탐색_2)숫자카드",
+      "date": "2019-07-16",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-16-이진탐색210815.md"
+    },
+    {
+      "slug": "2019-07-16-정렬21427",
+      "title": "BJO_1427(정렬2)",
+      "date": "2019-07-16",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-16-정렬21427.md"
+    },
+    {
+      "slug": "2019-07-16-파이썬자료구조5-9",
+      "title": "파이썬자료구조(5-9)_재귀알고리즘_링크드리스트",
+      "date": "2019-07-16",
+      "year": 2019,
+      "tags": [
+        "python",
+        "pythonDataStructure"
+      ],
+      "categories": [
+        "python"
+      ],
+      "file": "2019/2019-07-16-파이썬자료구조5-9.md"
+    },
+    {
+      "slug": "2019-07-16-한이음-ai강의1",
+      "title": "MS_DAT263.x_(1)Introduction",
+      "date": "2019-07-16",
+      "year": 2019,
+      "tags": [
+        "AI"
+      ],
+      "categories": [
+        "인공지능"
+      ],
+      "file": "2019/2019-07-16-한이음-ai강의1.md"
+    },
+    {
+      "slug": "2019-07-15-이분탐색1수찾기",
+      "title": "탐색(1)_체스판(1100)",
+      "date": "2019-07-15",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-15-이분탐색1수찾기.md"
+    },
+    {
+      "slug": "2019-07-15-이분탐색1체스판",
+      "title": "이분탐색(1)_수찾기(1920)",
+      "date": "2019-07-15",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-15-이분탐색1체스판.md"
+    },
+    {
+      "slug": "2019-07-15-파이썬자료구조1-4",
+      "title": "파이썬자료구조(1-4)_안녕,자료구조&알고리즘!",
+      "date": "2019-07-15",
+      "year": 2019,
+      "tags": [
+        "python",
+        "pythonDataStructure"
+      ],
+      "categories": [
+        "python"
+      ],
+      "file": "2019/2019-07-15-파이썬자료구조1-4.md"
+    },
+    {
+      "slug": "2019-07-13-swe4881배열의최소합",
+      "title": "SWE(4881)_배열의_최소_합",
+      "date": "2019-07-13",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-13-swe4881배열의최소합.md"
+    },
+    {
+      "slug": "2019-07-12-greedy17한줄로서기",
+      "title": "Greedy(17)_한줄로서기(1138)",
+      "date": "2019-07-12",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-12-greedy17한줄로서기.md"
+    },
+    {
+      "slug": "2019-07-12-greedy18반도체설계",
+      "title": "Greedy(18)_반도체설계(2352)",
+      "date": "2019-07-12",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-12-greedy18반도체설계.md"
+    },
+    {
+      "slug": "2019-07-12-swe4875미로",
+      "title": "SWE(4875)_미로",
+      "date": "2019-07-12",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-12-swe4875미로.md"
+    },
+    {
+      "slug": "2019-07-11-greedy15dna",
+      "title": "Greedy(15)_DNA(1969)",
+      "date": "2019-07-11",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-11-greedy15dna.md"
+    },
+    {
+      "slug": "2019-07-11-greedy16크게만들기",
+      "title": "Greedy(16)_크게만들기(2812)",
+      "date": "2019-07-11",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-11-greedy16크게만들기.md"
+    },
+    {
+      "slug": "2019-07-11-swe4874forth",
+      "title": "SWE(4874)_Forth",
+      "date": "2019-07-11",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-11-swe4874forth.md"
+    },
+    {
+      "slug": "2019-07-11-swestack2",
+      "title": "SWE_python_Stack2",
+      "date": "2019-07-11",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-11-swestack2.md"
+    },
+    {
+      "slug": "2019-07-10-greedy13저울",
+      "title": "Greedy(13)_저울(2437)",
+      "date": "2019-07-10",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-10-greedy13저울.md"
+    },
+    {
+      "slug": "2019-07-10-greedy14병든나이트",
+      "title": "Greedy(14)_병든나이트(1783)",
+      "date": "2019-07-10",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-10-greedy14병든나이트.md"
+    },
+    {
+      "slug": "2019-07-09-swe4866괄호검사",
+      "title": "SWE(4866)_괄호검사",
+      "date": "2019-07-09",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-09-swe4866괄호검사.md"
+    },
+    {
+      "slug": "2019-07-09-swe4869",
+      "title": "SWE(4869)_종이붙이기",
+      "date": "2019-07-09",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-09-swe4869.md"
+    },
+    {
+      "slug": "2019-07-09-swe4871그래프경로",
+      "title": "SWE(4871)_그래프 경로",
+      "date": "2019-07-09",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-09-swe4871그래프경로.md"
+    },
+    {
+      "slug": "2019-07-09-swe4873반복문지우기",
+      "title": "SWE(4873)_반복문지우기",
+      "date": "2019-07-09",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-09-swe4873반복문지우기.md"
+    },
+    {
+      "slug": "2019-07-09-swestack1",
+      "title": "SWE_python_Stack1",
+      "date": "2019-07-09",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-09-swestack1.md"
+    },
+    {
+      "slug": "2019-07-09-greedy13부등호",
+      "title": "Greedy(13)_부등호(2529)",
+      "date": "2019-07-09",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-09-greedy13부등호.md"
+    },
+    {
+      "slug": "2019-07-08-swe4861회문",
+      "title": "SWE(4861)_회문",
+      "date": "2019-07-08",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-08-swe4861회문.md"
+    },
+    {
+      "slug": "2019-07-08-swe4864문자열비교",
+      "title": "SWE(4864)_문자열비교",
+      "date": "2019-07-08",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-08-swe4864문자열비교.md"
+    },
+    {
+      "slug": "2019-07-08-swe4865글자수",
+      "title": "SWE(4865)_글자수",
+      "date": "2019-07-08",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-08-swe4865글자수.md"
+    },
+    {
+      "slug": "2019-07-08-greedy101049기타줄",
+      "title": "Greedy(10)_기타줄(1049)",
+      "date": "2019-07-08",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-08-greedy101049기타줄.md"
+    },
+    {
+      "slug": "2019-07-08-greedy11잃어버린괄호",
+      "title": "Greedy(11)_잃어버린_괄호(1541)",
+      "date": "2019-07-08",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-08-greedy11잃어버린괄호.md"
+    },
+    {
+      "slug": "2019-07-08-greedy12행렬",
+      "title": "Greedy(12)_행렬(1080)",
+      "date": "2019-07-08",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-08-greedy12행렬.md"
+    },
+    {
+      "slug": "2019-07-07-greedy81120",
+      "title": "Greedy(8)_문자열(1120번)",
+      "date": "2019-07-07",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-07-greedy81120.md"
+    },
+    {
+      "slug": "2019-07-07-swe4839색칠하기",
+      "title": "SWE(4839)_이진탐색",
+      "date": "2019-07-07",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-07-swe4839색칠하기.md"
+    },
+    {
+      "slug": "2019-07-07-swe4843특별한정렬",
+      "title": "SWE(4843)_특별한 정렬",
+      "date": "2019-07-07",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-07-swe4843특별한정렬.md"
+    },
+    {
+      "slug": "2019-07-07-swestring",
+      "title": "SWE_python_String",
+      "date": "2019-07-07",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-07-swestring.md"
+    },
+    {
+      "slug": "2019-07-07-greedy91120",
+      "title": "Greedy(9)_신입사원(1946)",
+      "date": "2019-07-07",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-07-greedy91120.md"
+    },
+    {
+      "slug": "2019-07-06-swe4837부분집합-합",
+      "title": "SWE(4837)_부분집합의 합",
+      "date": "2019-07-06",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-06-swe4837부분집합-합.md"
+    },
+    {
+      "slug": "2019-07-05-greedy52217",
+      "title": "Greedy(5)_로프(2217번)",
+      "date": "2019-07-05",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-05-greedy52217.md"
+    },
+    {
+      "slug": "2019-07-05-greedy610610",
+      "title": "Greedy(6)_30(10610번)",
+      "date": "2019-07-05",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-05-greedy610610.md"
+    },
+    {
+      "slug": "2019-07-05-greedy72875",
+      "title": "Greedy(7)_대회or인턴(2875번)",
+      "date": "2019-07-05",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-05-greedy72875.md"
+    },
+    {
+      "slug": "2019-07-05-swe4836색칠하기",
+      "title": "SWE(4836)_색칠하기",
+      "date": "2019-07-05",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-05-swe4836색칠하기.md"
+    },
+    {
+      "slug": "2019-07-05-swelist2부분집합",
+      "title": "SWE_python_List2(부분집합,검색,정렬)",
+      "date": "2019-07-05",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-05-swelist2부분집합.md"
+    },
+    {
+      "slug": "2019-07-04-blockchain-dapp12",
+      "title": "BlockChain_Dapp(12)_마무리",
+      "date": "2019-07-04",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-07-04-blockchain-dapp12.md"
+    },
+    {
+      "slug": "2019-07-04-swelist22차원리스트",
+      "title": "SWE_python_List2(2차원리스트)",
+      "date": "2019-07-04",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-04-swelist22차원리스트.md"
+    },
+    {
+      "slug": "2019-07-03-blockchain-dapp10",
+      "title": "BlockChain_Dapp(10)_이더리움 부동산 스마트 계약 개발",
+      "date": "2019-07-03",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-07-03-blockchain-dapp10.md"
+    },
+    {
+      "slug": "2019-07-03-blockchain-dapp11",
+      "title": "BlockChain_Dapp(11)_이더리움 부동산 프론트엔드 개발",
+      "date": "2019-07-03",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-07-03-blockchain-dapp11.md"
+    },
+    {
+      "slug": "2019-07-03-greedy1",
+      "title": "Greedy(1)_ATM 문제_(11399번)",
+      "date": "2019-07-03",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-03-greedy1.md"
+    },
+    {
+      "slug": "2019-07-03-greedy2",
+      "title": "Greedy(2)_동전 알고리즘_(11047번)",
+      "date": "2019-07-03",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-03-greedy2.md"
+    },
+    {
+      "slug": "2019-07-03-greedy31931",
+      "title": "Greedy(3)_회의실배정(1931번)",
+      "date": "2019-07-03",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-03-greedy31931.md"
+    },
+    {
+      "slug": "2019-07-03-greedy45585",
+      "title": "Greedy(4)_거스름돈(5585번)",
+      "date": "2019-07-03",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-03-greedy45585.md"
+    },
+    {
+      "slug": "2019-07-03-swe4834숫자카드",
+      "title": "SWE(4834)_숫자카드",
+      "date": "2019-07-03",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-03-swe4834숫자카드.md"
+    },
+    {
+      "slug": "2019-07-03-swe4835구간합",
+      "title": "SWE(4835)_구간합",
+      "date": "2019-07-03",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-03-swe4835구간합.md"
+    },
+    {
+      "slug": "2019-07-02-swelist1",
+      "title": "SWE_python_List1",
+      "date": "2019-07-02",
+      "year": 2019,
+      "tags": [
+        "SWExpertAcadmey"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-07-02-swelist1.md"
+    },
+    {
+      "slug": "2019-05-07-blockchain-dapp9",
+      "title": "BlockChain_Dapp(9)",
+      "date": "2019-05-07",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-05-07-blockchain-dapp9.md"
+    },
+    {
+      "slug": "2019-05-06-blockchain-dapp8",
+      "title": "BlockChain_Dapp(8)",
+      "date": "2019-05-06",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-05-06-blockchain-dapp8.md"
+    },
+    {
+      "slug": "2019-05-05-blockchain-dapp7",
+      "title": "BlockChain_Dapp(7)",
+      "date": "2019-05-05",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-05-05-blockchain-dapp7.md"
+    },
+    {
+      "slug": "2019-05-04-blockchain-dapp4",
+      "title": "BlockChain_Dapp(4)",
+      "date": "2019-05-04",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-05-04-blockchain-dapp4.md"
+    },
+    {
+      "slug": "2019-05-04-blockchain-dapp5",
+      "title": "BlockChain_Dapp(5)",
+      "date": "2019-05-04",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-05-04-blockchain-dapp5.md"
+    },
+    {
+      "slug": "2019-05-04-blockchain-dapp6",
+      "title": "BlockChain_Dapp(6)",
+      "date": "2019-05-04",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-05-04-blockchain-dapp6.md"
+    },
+    {
+      "slug": "2019-05-04-swm1218",
+      "title": "SWM(1218)",
+      "date": "2019-05-04",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-05-04-swm1218.md"
+    },
+    {
+      "slug": "2019-05-04-selfstudybookstack",
+      "title": "SelfStudyBook(Stack),(1218)",
+      "date": "2019-05-04",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-05-04-selfstudybookstack.md"
+    },
+    {
+      "slug": "2019-05-01-blockchain-dapp3",
+      "title": "BlockChain_Dapp(3)",
+      "date": "2019-05-01",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-05-01-blockchain-dapp3.md"
+    },
+    {
+      "slug": "2019-05-01-topcit1",
+      "title": "Topcit(1) 비즈니스 영역",
+      "date": "2019-05-01",
+      "year": 2019,
+      "tags": [
+        "Topcit"
+      ],
+      "categories": [
+        "Topcit"
+      ],
+      "file": "2019/2019-05-01-topcit1.md"
+    },
+    {
+      "slug": "2019-04-30-blockchain-dapp2",
+      "title": "BlockChain_Dapp(2)",
+      "date": "2019-04-30",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-04-30-blockchain-dapp2.md"
+    },
+    {
+      "slug": "2019-04-30-swe1989d2",
+      "title": "SWE 1288(새로운 불면증 치료법)(D2)",
+      "date": "2019-04-30",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-04-30-swe1989d2.md"
+    },
+    {
+      "slug": "2019-04-29-blockchain-dapp1",
+      "title": "BlockChain_Dapp(1)",
+      "date": "2019-04-29",
+      "year": 2019,
+      "tags": [
+        "BlockChain"
+      ],
+      "categories": [
+        "BlockChain"
+      ],
+      "file": "2019/2019-04-29-blockchain-dapp1.md"
+    },
+    {
+      "slug": "2019-04-29-swe1989d2",
+      "title": "SWE 1989(초심자의 회문)(D2)",
+      "date": "2019-04-29",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-04-29-swe1989d2.md"
+    },
+    {
+      "slug": "2019-04-16-swe1926d2",
+      "title": "SWE 1926(간단한 369 게임)(D2)",
+      "date": "2019-04-16",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-04-16-swe1926d2.md"
+    },
+    {
+      "slug": "2019-04-16-swe2001d2",
+      "title": "SWE 2001(파리퇴치)(D2)",
+      "date": "2019-04-16",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-04-16-swe2001d2.md"
+    },
+    {
+      "slug": "2019-04-14-swe1216d3",
+      "title": "SWE 1216(회문2)",
+      "date": "2019-04-14",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-04-14-swe1216d3.md"
+    },
+    {
+      "slug": "2019-04-13-swe1232",
+      "title": "SWE 1232(사칙연산)",
+      "date": "2019-04-13",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-04-13-swe1232.md"
+    },
+    {
+      "slug": "2019-04-13-swe1284d2",
+      "title": "SWE 1284(수도 요금 경쟁)",
+      "date": "2019-04-13",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-04-13-swe1284d2.md"
+    },
+    {
+      "slug": "2019-04-11-swe1231",
+      "title": "SWE 1231(중위순회)",
+      "date": "2019-04-11",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-04-11-swe1231.md"
+    },
+    {
+      "slug": "2019-04-11-자바-입출력",
+      "title": "자바 입출력 정리",
+      "date": "2019-04-11",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-04-11-자바-입출력.md"
+    },
+    {
+      "slug": "2019-04-10-자료구조세미나-마지막",
+      "title": "자료구조 세미나 마지막",
+      "date": "2019-04-10",
+      "year": 2019,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2019/2019-04-10-자료구조세미나-마지막.md"
+    },
+    {
+      "slug": "2019-04-09-selfstudybooktree",
+      "title": "SelfStudyBook(3)-Tree",
+      "date": "2019-04-09",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-04-09-selfstudybooktree.md"
+    },
+    {
+      "slug": "2019-04-07-swe1209",
+      "title": "(1209)(Sum) - s/w 문제 해결 기본 2일차",
+      "date": "2019-04-07",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-04-07-swe1209.md"
+    },
+    {
+      "slug": "2019-04-07-swe1210",
+      "title": "(1210)(Ladder1) - s/w 문제 해결 기본 2일차",
+      "date": "2019-04-07",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-04-07-swe1210.md"
+    },
+    {
+      "slug": "2019-04-07-selfstudy3",
+      "title": "SelfStudyBook1(3)_4차시 [Array] 배열의 순회, 선택 정렬, 대표문제 - Ladder",
+      "date": "2019-04-07",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-04-07-selfstudy3.md"
+    },
+    {
+      "slug": "2019-04-07-sw-문제해결기본-array2",
+      "title": "SelfStudy1(3)SW 문제해결 기본 - Array 2",
+      "date": "2019-04-07",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-04-07-sw-문제해결기본-array2.md"
+    },
+    {
+      "slug": "2019-04-06-swe1206",
+      "title": "SelfStudyBook(3)(1206)(View)",
+      "date": "2019-04-06",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-04-06-swe1206.md"
+    },
+    {
+      "slug": "2019-04-06-swe1208",
+      "title": "(1208)(Flatten) - s/w 문제 해결 기본 1일차 -flatten",
+      "date": "2019-04-06",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-04-06-swe1208.md"
+    },
+    {
+      "slug": "2019-04-01-selfstudy2",
+      "title": "SelfStudyBook2",
+      "date": "2019-04-01",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-04-01-selfstudy2.md"
+    },
+    {
+      "slug": "2019-04-01-selfstudy2보충",
+      "title": "SelfStudyBook(2)보충_SW문제 해결 기본(array)",
+      "date": "2019-04-01",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [
+        "algorithm"
+      ],
+      "file": "2019/2019-04-01-selfstudy2보충.md"
+    },
+    {
+      "slug": "2019-03-31-swe1204",
+      "title": "SWE(1024)-최빈수 구하기",
+      "date": "2019-03-31",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-31-swe1204.md"
+    },
+    {
+      "slug": "2019-03-31-swe4828",
+      "title": "SWE(4828)",
+      "date": "2019-03-31",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-31-swe4828.md"
+    },
+    {
+      "slug": "2019-03-23-swe2019",
+      "title": "SWexpertAcademy(2019)",
+      "date": "2019-03-23",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-23-swe2019.md"
+    },
+    {
+      "slug": "2019-03-23-swe204620432029202720251938193319361545",
+      "title": "SWexpertAcademy(2046,2043,2029,2027,2025,1938,1933,1936)",
+      "date": "2019-03-23",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-23-swe204620432029202720251938193319361545.md"
+    },
+    {
+      "slug": "2019-03-23-swe2047",
+      "title": "SWexpertAcademy(2047)",
+      "date": "2019-03-23",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-23-swe2047.md"
+    },
+    {
+      "slug": "2019-03-23-swe2050",
+      "title": "SWexpertAcademy(2050)",
+      "date": "2019-03-23",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-23-swe2050.md"
+    },
+    {
+      "slug": "2019-03-23-swm-코딩테스트",
+      "title": "SW 마에스트로 코딩 시험",
+      "date": "2019-03-23",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-23-swm-코딩테스트.md"
+    },
+    {
+      "slug": "2019-03-22-swe2056",
+      "title": "SWexpertAcademy(2056)",
+      "date": "2019-03-22",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-22-swe2056.md"
+    },
+    {
+      "slug": "2019-03-22-swe2058",
+      "title": "SWexpertAcademy(2058)",
+      "date": "2019-03-22",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-22-swe2058.md"
+    },
+    {
+      "slug": "2019-03-21-swe2063",
+      "title": "SWexpertAcademy(2063)",
+      "date": "2019-03-21",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-21-swe2063.md"
+    },
+    {
+      "slug": "2019-03-20-swe2068",
+      "title": "SWexpertAcademy(2068)",
+      "date": "2019-03-20",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-20-swe2068.md"
+    },
+    {
+      "slug": "2019-03-20-swe2070",
+      "title": "SWexpertAcademy(2070)",
+      "date": "2019-03-20",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-20-swe2070.md"
+    },
+    {
+      "slug": "2019-03-20-swe2071",
+      "title": "SWexpertAcademy(2071)",
+      "date": "2019-03-20",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-20-swe2071.md"
+    },
+    {
+      "slug": "2019-03-20-swe2072",
+      "title": "SWexpertAcademy(2072)",
+      "date": "2019-03-20",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-20-swe2072.md"
+    },
+    {
+      "slug": "2019-03-20-자료구조세미나1",
+      "title": "자료구조(자바) 세미나(1)",
+      "date": "2019-03-20",
+      "year": 2019,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-20-자료구조세미나1.md"
+    },
+    {
+      "slug": "2019-03-18-자바4",
+      "title": "그림으로 배우는 자바(4)",
+      "date": "2019-03-18",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-18-자바4.md"
+    },
+    {
+      "slug": "2019-03-17-doit알고리즘2",
+      "title": "Do it! 자료구조와 함께 배우는 알고리즘 입문(2)",
+      "date": "2019-03-17",
+      "year": 2019,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-17-doit알고리즘2.md"
+    },
+    {
+      "slug": "2019-03-15-doit알고리즘1",
+      "title": "Do it! 자료구조와 함께 배우는 알고리즘 입문(1)",
+      "date": "2019-03-15",
+      "year": 2019,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-15-doit알고리즘1.md"
+    },
+    {
+      "slug": "2019-03-15-자바3",
+      "title": "그림으로 배우는 자바(3)",
+      "date": "2019-03-15",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-15-자바3.md"
+    },
+    {
+      "slug": "2019-03-14-자바1",
+      "title": "그림으로 배우는 자바(1)",
+      "date": "2019-03-14",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-14-자바1.md"
+    },
+    {
+      "slug": "2019-03-14-자바2",
+      "title": "그림으로 배우는 자바(2)",
+      "date": "2019-03-14",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-14-자바2.md"
+    },
+    {
+      "slug": "2019-03-12-swm준비10",
+      "title": "SW 마에스트로 준비(8)",
+      "date": "2019-03-12",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-12-swm준비10.md"
+    },
+    {
+      "slug": "2019-03-11-swm준비9",
+      "title": "SW 마에스트로 준비(7)",
+      "date": "2019-03-11",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-11-swm준비9.md"
+    },
+    {
+      "slug": "2019-03-11-기술면접준비3",
+      "title": "기술 면접 준비(3)",
+      "date": "2019-03-11",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "interview"
+      ],
+      "categories": [
+        "interview"
+      ],
+      "file": "2019/2019-03-11-기술면접준비3.md"
+    },
+    {
+      "slug": "2019-03-10-swm준비8",
+      "title": "SW 마에스트로 준비(6)",
+      "date": "2019-03-10",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-10-swm준비8.md"
+    },
+    {
+      "slug": "2019-03-07-swm준비7",
+      "title": "SW 마에스트로 준비(5)",
+      "date": "2019-03-07",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-07-swm준비7.md"
+    },
+    {
+      "slug": "2019-03-07-blockchain1",
+      "title": "블록체인 관련 자료 모음",
+      "date": "2019-03-07",
+      "year": 2019,
+      "tags": [
+        "blockChain"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-07-blockchain1.md"
+    },
+    {
+      "slug": "2019-03-06-swm준비6",
+      "title": "SW 마에스트로 준비(5)",
+      "date": "2019-03-06",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-06-swm준비6.md"
+    },
+    {
+      "slug": "2019-03-06-기술면접준비2",
+      "title": "기술 면접 준비(2)",
+      "date": "2019-03-06",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "interview"
+      ],
+      "categories": [
+        "interview"
+      ],
+      "file": "2019/2019-03-06-기술면접준비2.md"
+    },
+    {
+      "slug": "2019-03-05-swm준비4",
+      "title": "SW 마에스트로 준비(4)",
+      "date": "2019-03-05",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-05-swm준비4.md"
+    },
+    {
+      "slug": "2019-03-05-swm준비5",
+      "title": "SW 마에스트로 준비 면접 준비(1)",
+      "date": "2019-03-05",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-05-swm준비5.md"
+    },
+    {
+      "slug": "2019-03-05-기술면접준비1",
+      "title": "기술 면접 준비(1)",
+      "date": "2019-03-05",
+      "year": 2019,
+      "tags": [
+        "algorithm",
+        "interview"
+      ],
+      "categories": [
+        "interview"
+      ],
+      "file": "2019/2019-03-05-기술면접준비1.md"
+    },
+    {
+      "slug": "2019-03-04-swm준비3",
+      "title": "SW 마에스트로 준비(3)",
+      "date": "2019-03-04",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-04-swm준비3.md"
+    },
+    {
+      "slug": "2019-03-03-swm준비2",
+      "title": "SW 마에스트로 준비(2)",
+      "date": "2019-03-03",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-03-03-swm준비2.md"
+    },
+    {
+      "slug": "2019-02-28-swm준비1",
+      "title": "SW 마에스트로 준비(1)",
+      "date": "2019-02-28",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-02-28-swm준비1.md"
+    },
+    {
+      "slug": "2019-02-27-swm준비0",
+      "title": "SW 마에스트로 준비(계획)",
+      "date": "2019-02-27",
+      "year": 2019,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2019/2019-02-27-swm준비0.md"
+    },
+    {
+      "slug": "2019-02-20-운영체제와-정보기술의-원리3",
+      "title": "운영체제와 정보기술의 원리(3)",
+      "date": "2019-02-20",
+      "year": 2019,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2019/2019-02-20-운영체제와-정보기술의-원리3.md"
+    },
+    {
+      "slug": "2019-02-06-러닝리액트1",
+      "title": "러닝 리액트(2장)",
+      "date": "2019-02-06",
+      "year": 2019,
+      "tags": [
+        "react"
+      ],
+      "categories": [],
+      "file": "2019/2019-02-06-러닝리액트1.md"
+    },
+    {
+      "slug": "2019-02-06-운영체제와-정보기술의-원리2",
+      "title": "운영체제와 정보기술의 원리(2)",
+      "date": "2019-02-06",
+      "year": 2019,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2019/2019-02-06-운영체제와-정보기술의-원리2.md"
+    },
+    {
+      "slug": "2019-01-31-운영체제와-정보기술의-원리1",
+      "title": "운영체제와 정보기술의 원리(1)",
+      "date": "2019-01-31",
+      "year": 2019,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2019/2019-01-31-운영체제와-정보기술의-원리1.md"
+    },
+    {
+      "slug": "2019-01-02-자료구조18",
+      "title": "자료구조(13)_Queue",
+      "date": "2019-01-02",
+      "year": 2019,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2019/2019-01-02-자료구조18.md"
+    },
+    {
+      "slug": "2018-12-31-자료구조17",
+      "title": "자료구조(12)_디버그 모드 활용",
+      "date": "2018-12-31",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-31-자료구조17.md"
+    },
+    {
+      "slug": "2018-12-30-자료구조16",
+      "title": "자료구조(11)_ 연결리스트 기반 스택 구현",
+      "date": "2018-12-30",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-30-자료구조16.md"
+    },
+    {
+      "slug": "2018-12-27-자료구조15",
+      "title": "자료구조(10)_ 연결리스트 정리",
+      "date": "2018-12-27",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-27-자료구조15.md"
+    },
+    {
+      "slug": "2018-12-24-자료구조13",
+      "title": "자료구조(8)_char*변형 문제 답안",
+      "date": "2018-12-24",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-24-자료구조13.md"
+    },
+    {
+      "slug": "2018-12-24-자료구조14",
+      "title": "자료구조(9)_5번 방 문제 답안",
+      "date": "2018-12-24",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-24-자료구조14.md"
+    },
+    {
+      "slug": "2018-12-23-누구든지-하는-리액트2",
+      "title": "react_누구든지 하는 리액트(2)",
+      "date": "2018-12-23",
+      "year": 2018,
+      "tags": [
+        "react"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-23-누구든지-하는-리액트2.md"
+    },
+    {
+      "slug": "2018-12-23-누구든지-하는-리액트3",
+      "title": "react_누구든지 하는 리액트(3)",
+      "date": "2018-12-23",
+      "year": 2018,
+      "tags": [
+        "react"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-23-누구든지-하는-리액트3.md"
+    },
+    {
+      "slug": "2018-12-22-누구든지-하는-리액트1",
+      "title": "react_누구든지 하는 리액트(1)",
+      "date": "2018-12-22",
+      "year": 2018,
+      "tags": [
+        "react"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-22-누구든지-하는-리액트1.md"
+    },
+    {
+      "slug": "2018-12-21-자료구조11",
+      "title": "자료구조(9) 숙제(4+) 문자열 포인터",
+      "date": "2018-12-21",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-21-자료구조11.md"
+    },
+    {
+      "slug": "2018-12-21-자료구조12",
+      "title": "자료구조(9) 숙제(5)",
+      "date": "2018-12-21",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-21-자료구조12.md"
+    },
+    {
+      "slug": "2018-12-20-자료구조10",
+      "title": "자료구조(8) 숙제(4) 해설",
+      "date": "2018-12-20",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-20-자료구조10.md"
+    },
+    {
+      "slug": "2018-12-19-자료구조8",
+      "title": "자료구조(7) 문제(3)풀이/ typedef",
+      "date": "2018-12-19",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-19-자료구조8.md"
+    },
+    {
+      "slug": "2018-12-19-자료구조9",
+      "title": "자료구조(7) 숙제(4)/정렬",
+      "date": "2018-12-19",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-19-자료구조9.md"
+    },
+    {
+      "slug": "2018-12-18-자료구조6",
+      "title": "자료구조(5) 문제(2) switch문으로 변형/ define /  buffer",
+      "date": "2018-12-18",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-18-자료구조6.md"
+    },
+    {
+      "slug": "2018-12-18-자료구조7",
+      "title": "자료구조(6) 문제(3)에 대한 나의 코드 / 고친 코드",
+      "date": "2018-12-18",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-18-자료구조7.md"
+    },
+    {
+      "slug": "2018-12-17-자료구조4",
+      "title": "자료구조(4)_ homework 문제풀이(1)",
+      "date": "2018-12-17",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-17-자료구조4.md"
+    },
+    {
+      "slug": "2018-12-17-자료구조5",
+      "title": "자료구조(5) 문제(2)_나의코드",
+      "date": "2018-12-17",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-17-자료구조5.md"
+    },
+    {
+      "slug": "2018-12-14-자료구조3",
+      "title": "자료구조(3)_ 함수 생성과 포인터",
+      "date": "2018-12-14",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-14-자료구조3.md"
+    },
+    {
+      "slug": "2018-12-13-자료구조2",
+      "title": "자료구조(2)_동적할당",
+      "date": "2018-12-13",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-13-자료구조2.md"
+    },
+    {
+      "slug": "2018-12-12-자료구조1",
+      "title": "자료구조(1)_메모리구조",
+      "date": "2018-12-12",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-12-12-자료구조1.md"
+    },
+    {
+      "slug": "2018-09-22-알고리즘-복습",
+      "title": "알고리즘 복습",
+      "date": "2018-09-22",
+      "year": 2018,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2018/2018-09-22-알고리즘-복습.md"
+    },
+    {
+      "slug": "2018-08-03-고급html분석",
+      "title": "crawling - 고급 HTML 분석",
+      "date": "2018-08-03",
+      "year": 2018,
+      "tags": [
+        "adjango"
+      ],
+      "categories": [],
+      "file": "2018/2018-08-03-고급html분석.md"
+    },
+    {
+      "slug": "2018-08-02-스크래이퍼-제작",
+      "title": "스크래이퍼",
+      "date": "2018-08-02",
+      "year": 2018,
+      "tags": [
+        "adjango"
+      ],
+      "categories": [],
+      "file": "2018/2018-08-02-스크래이퍼-제작.md"
+    },
+    {
+      "slug": "2018-06-11-컴퓨터구조론virtual-memory",
+      "title": "컴퓨터구조론 (virtual_memory)",
+      "date": "2018-06-11",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-06-11-컴퓨터구조론virtual-memory.md"
+    },
+    {
+      "slug": "2018-06-09-컴퓨터구조론multilevel-cash",
+      "title": "컴퓨터구조론 (multilevel_cash)",
+      "date": "2018-06-09",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-06-09-컴퓨터구조론multilevel-cash.md"
+    },
+    {
+      "slug": "2018-06-06-컴퓨터구조론associative-cache",
+      "title": "컴퓨터구조론 (set associative Cache)",
+      "date": "2018-06-06",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-06-06-컴퓨터구조론associative-cache.md"
+    },
+    {
+      "slug": "2018-06-06-컴퓨터구조론cash2",
+      "title": "컴퓨터구조론 (cash2)",
+      "date": "2018-06-06",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-06-06-컴퓨터구조론cash2.md"
+    },
+    {
+      "slug": "2018-06-04-컴퓨터구조론cash1",
+      "title": "컴퓨터구조론 (memory_hierarchy)",
+      "date": "2018-06-04",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-06-04-컴퓨터구조론cash1.md"
+    },
+    {
+      "slug": "2018-06-02-컴퓨터구조론memory-hierarchy",
+      "title": "컴퓨터구조론 (memory_hierarchy)",
+      "date": "2018-06-02",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-06-02-컴퓨터구조론memory-hierarchy.md"
+    },
+    {
+      "slug": "2018-05-29-전처리기-공부",
+      "title": "프프 전처리기",
+      "date": "2018-05-29",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-29-전처리기-공부.md"
+    },
+    {
+      "slug": "2018-05-29-컴퓨터구조론parallelism",
+      "title": "컴퓨터구조론 (parallelism)",
+      "date": "2018-05-29",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-29-컴퓨터구조론parallelism.md"
+    },
+    {
+      "slug": "2018-05-27-컴퓨터구조론exceptions",
+      "title": "컴퓨터구조론 (exceptions)",
+      "date": "2018-05-27",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-27-컴퓨터구조론exceptions.md"
+    },
+    {
+      "slug": "2018-05-26-데이터통신기말고사-대비",
+      "title": "데이터통신 (기말고사, 정리)",
+      "date": "2018-05-26",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-26-데이터통신기말고사-대비.md"
+    },
+    {
+      "slug": "2018-05-26-백준10828-스택구현",
+      "title": "백준 - 스택 구현 (10828)",
+      "date": "2018-05-26",
+      "year": 2018,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-26-백준10828-스택구현.md"
+    },
+    {
+      "slug": "2018-05-22-트리-공부",
+      "title": "트리구조 기본개념공부",
+      "date": "2018-05-22",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-22-트리-공부.md"
+    },
+    {
+      "slug": "2018-05-21-c언어보충",
+      "title": "C언어 기본 보충",
+      "date": "2018-05-21",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-21-c언어보충.md"
+    },
+    {
+      "slug": "2018-05-21-링크드리스트보충",
+      "title": "링크드리스트 보충",
+      "date": "2018-05-21",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-21-링크드리스트보충.md"
+    },
+    {
+      "slug": "2018-05-20-컴퓨터구조론control-hazard",
+      "title": "컴퓨터구조론 (control hazard)",
+      "date": "2018-05-20",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-20-컴퓨터구조론control-hazard.md"
+    },
+    {
+      "slug": "2018-05-20-컴퓨터구조론명령어-정리",
+      "title": "컴퓨터구조론 (명령어 모음)",
+      "date": "2018-05-20",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-20-컴퓨터구조론명령어-정리.md"
+    },
+    {
+      "slug": "2018-05-15-파일입출력",
+      "title": "파일입출력",
+      "date": "2018-05-15",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-15-파일입출력.md"
+    },
+    {
+      "slug": "2018-05-06-와",
+      "title": "연산자",
+      "date": "2018-05-06",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-06-와.md"
+    },
+    {
+      "slug": "2018-05-06-링크드리스트-구현",
+      "title": "링크드 리스트 구현 예제",
+      "date": "2018-05-06",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-06-링크드리스트-구현.md"
+    },
+    {
+      "slug": "2018-05-05-컴퓨터구조론파이프라인",
+      "title": "컴퓨터구조론 (파이프라인)",
+      "date": "2018-05-05",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-05-컴퓨터구조론파이프라인.md"
+    },
+    {
+      "slug": "2018-05-01-링크드리스트",
+      "title": "링크드 리스트 공부",
+      "date": "2018-05-01",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-01-링크드리스트.md"
+    },
+    {
+      "slug": "2018-05-01-사전만들기-project2",
+      "title": "프로그래밍 프로젝트 (동적 메모리)",
+      "date": "2018-05-01",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-05-01-사전만들기-project2.md"
+    },
+    {
+      "slug": "2018-04-27-데이터통신중간고사-대비-12장",
+      "title": "데이터통신 (중간고사 공부 1장, 2장)",
+      "date": "2018-04-27",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-27-데이터통신중간고사-대비-12장.md"
+    },
+    {
+      "slug": "2018-04-27-데이터통신중간고사-대비-34강",
+      "title": "데이터통신 (중간고사 공부 3장,4장)",
+      "date": "2018-04-27",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-27-데이터통신중간고사-대비-34강.md"
+    },
+    {
+      "slug": "2018-04-27-데이터통신중간고사-대비-56강",
+      "title": "데이터통신 (중간고사 공부 5장,6장)",
+      "date": "2018-04-27",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-27-데이터통신중간고사-대비-56강.md"
+    },
+    {
+      "slug": "2018-04-25-데이터통신중간고사-목차-및-예상-문제",
+      "title": "데이터통신 (중간고사 공부 개념, 정리)",
+      "date": "2018-04-25",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-25-데이터통신중간고사-목차-및-예상-문제.md"
+    },
+    {
+      "slug": "2018-04-23-창공설파이썬중간고사-공부",
+      "title": "창공설 (실습 - 파이썬 중간고사 공부)",
+      "date": "2018-04-23",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-23-창공설파이썬중간고사-공부.md"
+    },
+    {
+      "slug": "2018-04-17-프로그래밍-프로젝트-구조체",
+      "title": "프로그래밍 프로젝트 (구조체)",
+      "date": "2018-04-17",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-17-프로그래밍-프로젝트-구조체.md"
+    },
+    {
+      "slug": "2018-04-16-컴퓨터구조론보충5",
+      "title": "컴퓨터구조론 (Processor)",
+      "date": "2018-04-16",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-16-컴퓨터구조론보충5.md"
+    },
+    {
+      "slug": "2018-04-12-창공설6주차",
+      "title": "창공설 (6주차 실습)",
+      "date": "2018-04-12",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-12-창공설6주차.md"
+    },
+    {
+      "slug": "2018-04-11-컴퓨터구조론보충4",
+      "title": "컴퓨터구조론 (IEEE)",
+      "date": "2018-04-11",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-11-컴퓨터구조론보충4.md"
+    },
+    {
+      "slug": "2018-04-10-프로그래밍-프로젝트-문자",
+      "title": "프로그래밍 프로젝트 (문자)",
+      "date": "2018-04-10",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-10-프로그래밍-프로젝트-문자.md"
+    },
+    {
+      "slug": "2018-04-07-창공설5주차",
+      "title": "창공설 (5주차 실습)",
+      "date": "2018-04-07",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-07-창공설5주차.md"
+    },
+    {
+      "slug": "2018-04-07-컴퓨터구조론보충3",
+      "title": "컴퓨터구조론 (숭실대 강의 Divde)",
+      "date": "2018-04-07",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-07-컴퓨터구조론보충3.md"
+    },
+    {
+      "slug": "2018-04-06-컴퓨터구조론보충2",
+      "title": "컴퓨터구조론 (숭실대 강의 Multiply)",
+      "date": "2018-04-06",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-06-컴퓨터구조론보충2.md"
+    },
+    {
+      "slug": "2018-04-05-데이터-통신개념공부2",
+      "title": "데이터통신 (네트워크의 기능)",
+      "date": "2018-04-05",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-05-데이터-통신개념공부2.md"
+    },
+    {
+      "slug": "2018-04-05-데이터통신5전송매체2",
+      "title": "데이터통신 (chapter4)",
+      "date": "2018-04-05",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-05-데이터통신5전송매체2.md"
+    },
+    {
+      "slug": "2018-04-05-프로그래밍-언어론5",
+      "title": "프로그래밍 언어론 (구문트리)",
+      "date": "2018-04-05",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-05-프로그래밍-언어론5.md"
+    },
+    {
+      "slug": "2018-04-03-컴퓨터구조론6md",
+      "title": "컴퓨터구조론(chapter3)",
+      "date": "2018-04-03",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-03-컴퓨터구조론6md.md"
+    },
+    {
+      "slug": "2018-04-03-프로그래밍-프로젝트-project1",
+      "title": "프로그래밍 프로젝트 (배열_연습문제 복습)",
+      "date": "2018-04-03",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-03-프로그래밍-프로젝트-project1.md"
+    },
+    {
+      "slug": "2018-04-03-프로그래밍-프로젝트-배열연습문제",
+      "title": "프로그래밍 프로젝트 (배열_연습문제 복습)",
+      "date": "2018-04-03",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-03-프로그래밍-프로젝트-배열연습문제.md"
+    },
+    {
+      "slug": "2018-04-03-프로그래밍-프로젝트-변수와배열",
+      "title": "프로그래밍 프로젝트 (변수,배열)",
+      "date": "2018-04-03",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-03-프로그래밍-프로젝트-변수와배열.md"
+    },
+    {
+      "slug": "2018-04-03-프로그래밍-프로젝트-포인터",
+      "title": "프로그래밍 프로젝트 (pointer)",
+      "date": "2018-04-03",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-03-프로그래밍-프로젝트-포인터.md"
+    },
+    {
+      "slug": "2018-04-02-데이터통신4전송매체",
+      "title": "데이터통신 (chapter4)",
+      "date": "2018-04-02",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-02-데이터통신4전송매체.md"
+    },
+    {
+      "slug": "2018-04-02-컴퓨터구조론5md",
+      "title": "컴퓨터구조론 (chapter2.8)",
+      "date": "2018-04-02",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-02-컴퓨터구조론5md.md"
+    },
+    {
+      "slug": "2018-04-02-컴퓨터구조론보충md",
+      "title": "컴퓨터구조론 (숭실대 강의 보충)",
+      "date": "2018-04-02",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-02-컴퓨터구조론보충md.md"
+    },
+    {
+      "slug": "2018-04-02-프로그래밍-언어론4",
+      "title": "프로그래밍 언어론 (chapter4-1)",
+      "date": "2018-04-02",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-04-02-프로그래밍-언어론4.md"
+    },
+    {
+      "slug": "2018-03-31-프로그래밍-프로젝트-복습",
+      "title": "프로그래밍 프로젝트 복습",
+      "date": "2018-03-31",
+      "year": 2018,
+      "tags": [],
+      "categories": [],
+      "file": "2018/2018-03-31-프로그래밍-프로젝트-복습.md"
+    },
+    {
+      "slug": "2018-03-30-컴퓨터구조론4md",
+      "title": "컴퓨터구조론 (chapter2:Language of the Computer)",
+      "date": "2018-03-30",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-30-컴퓨터구조론4md.md"
+    },
+    {
+      "slug": "2018-03-29-데이터통신4데이터전송-2",
+      "title": "데이터통신 (chapter3.2)",
+      "date": "2018-03-29",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-29-데이터통신4데이터전송-2.md"
+    },
+    {
+      "slug": "2018-03-29-창공설4주차",
+      "title": "창공설 (4주차 실습)",
+      "date": "2018-03-29",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-29-창공설4주차.md"
+    },
+    {
+      "slug": "2018-03-29-프로그래밍-언어론4chapter05",
+      "title": "프로그래밍 언어론 (chapter5-2까지)",
+      "date": "2018-03-29",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-29-프로그래밍-언어론4chapter05.md"
+    },
+    {
+      "slug": "2018-03-27-창공설이론",
+      "title": "창공설 (이론 복습)",
+      "date": "2018-03-27",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-27-창공설이론.md"
+    },
+    {
+      "slug": "2018-03-27-컴퓨터구조론3",
+      "title": "컴퓨터구조론 (chapter2:Language of the Computer)",
+      "date": "2018-03-27",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-27-컴퓨터구조론3.md"
+    },
+    {
+      "slug": "2018-03-26-데이터통신3데이터전송",
+      "title": "데이터통신 (chapter3.1)",
+      "date": "2018-03-26",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-26-데이터통신3데이터전송.md"
+    },
+    {
+      "slug": "2018-03-26-프로그래밍-언어론3",
+      "title": "프로그래밍 언어론 (chapter4-1)",
+      "date": "2018-03-26",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-26-프로그래밍-언어론3.md"
+    },
+    {
+      "slug": "2018-03-26-프로그래밍-언어론3-필기정리",
+      "title": "프로그래밍 언어론 (필기정리 0321/0326)",
+      "date": "2018-03-26",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-26-프로그래밍-언어론3-필기정리.md"
+    },
+    {
+      "slug": "2018-03-24-프로그래밍-언어론2",
+      "title": "프로그래밍 언어론 (chapter3)",
+      "date": "2018-03-24",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-24-프로그래밍-언어론2.md"
+    },
+    {
+      "slug": "2018-03-23-데이터통기본개념공부",
+      "title": "데이터통신 (기본용어공부)",
+      "date": "2018-03-23",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-23-데이터통기본개념공부.md"
+    },
+    {
+      "slug": "2018-03-23-창공설3주차",
+      "title": "창공설 (3주차 실습)",
+      "date": "2018-03-23",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-23-창공설3주차.md"
+    },
+    {
+      "slug": "2018-03-23-컴퓨터구조론2",
+      "title": "컴퓨터구조론 (chapter1_성능)",
+      "date": "2018-03-23",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-23-컴퓨터구조론2.md"
+    },
+    {
+      "slug": "2018-03-19-데이터통신2프로토콜-구조tcpip인터넷-기반-응용",
+      "title": "데이터통신 (chapter2)",
+      "date": "2018-03-19",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-19-데이터통신2프로토콜-구조tcpip인터넷-기반-응용.md"
+    },
+    {
+      "slug": "2018-03-18-데이터통신1개요",
+      "title": "데이터통신 (chapter1)",
+      "date": "2018-03-18",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-18-데이터통신1개요.md"
+    },
+    {
+      "slug": "2018-03-18-컴퓨터구조론1",
+      "title": "컴퓨터구조론 (chapter1)",
+      "date": "2018-03-18",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-18-컴퓨터구조론1.md"
+    },
+    {
+      "slug": "2018-03-17-프로그래밍-언어론",
+      "title": "프로그래밍 언어론 (chapter1-3)",
+      "date": "2018-03-17",
+      "year": 2018,
+      "tags": [
+        "class"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-17-프로그래밍-언어론.md"
+    },
+    {
+      "slug": "2018-03-13-백준for문-사용하기2",
+      "title": "백준 - for문 사용하기",
+      "date": "2018-03-13",
+      "year": 2018,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-13-백준for문-사용하기2.md"
+    },
+    {
+      "slug": "2018-03-04-백준for문-사용하기",
+      "title": "백준 - for문 사용하기",
+      "date": "2018-03-04",
+      "year": 2018,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-04-백준for문-사용하기.md"
+    },
+    {
+      "slug": "2018-03-03-c로-배우는-자료구조9",
+      "title": "c로 배우는 자료구조 - 전화번호부v3.0",
+      "date": "2018-03-03",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-03-c로-배우는-자료구조9.md"
+    },
+    {
+      "slug": "2018-03-03-백준사칙연산",
+      "title": "백준 - 사칙연산",
+      "date": "2018-03-03",
+      "year": 2018,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-03-백준사칙연산.md"
+    },
+    {
+      "slug": "2018-03-03-백준입출력-받아보기",
+      "title": "백준 - 입출력 받아보기",
+      "date": "2018-03-03",
+      "year": 2018,
+      "tags": [
+        "algorithm"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-03-백준입출력-받아보기.md"
+    },
+    {
+      "slug": "2018-03-03-손코딩뇌컴파일눈디버깅",
+      "title": "손코딩뇌컴파일눈디버깅",
+      "date": "2018-03-03",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-03-손코딩뇌컴파일눈디버깅.md"
+    },
+    {
+      "slug": "2018-03-02-c로-배우는-자료구조8",
+      "title": "c로 배우는 자료구조 - 전화번호부v2.0",
+      "date": "2018-03-02",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-02-c로-배우는-자료구조8.md"
+    },
+    {
+      "slug": "2018-03-01-c로-배우는-자료구조7",
+      "title": "c로 배우는 자료구조 - 전화번호부v1.0(2)",
+      "date": "2018-03-01",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-03-01-c로-배우는-자료구조7.md"
+    },
+    {
+      "slug": "2018-02-04-c로-배우는-자료구조6",
+      "title": "c로 배우는 자료구조 - 전화번호부v1.0",
+      "date": "2018-02-04",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-02-04-c로-배우는-자료구조6.md"
+    },
+    {
+      "slug": "2018-02-02-c로-배우는-자료구조5",
+      "title": "c로 배우는 자료구조 - 연습문제2",
+      "date": "2018-02-02",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-02-02-c로-배우는-자료구조5.md"
+    },
+    {
+      "slug": "2018-01-25-c로-배우는-자료구조4",
+      "title": "c로 배우는 자료구조 - 연습문제",
+      "date": "2018-01-25",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-01-25-c로-배우는-자료구조4.md"
+    },
+    {
+      "slug": "2018-01-24-c로-배우는-자료구조3",
+      "title": "c로 배우는 자료구조 - 문자열",
+      "date": "2018-01-24",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-01-24-c로-배우는-자료구조3.md"
+    },
+    {
+      "slug": "2018-01-23-c로-배우는-자료구조2",
+      "title": "c로 배우는 자료구조 - 동적메모리 할당(1,2)",
+      "date": "2018-01-23",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-01-23-c로-배우는-자료구조2.md"
+    },
+    {
+      "slug": "2018-01-21-c로-배우는-자료구조",
+      "title": "c로 배우는 자료구조 - c언어 기초문법 리뷰",
+      "date": "2018-01-21",
+      "year": 2018,
+      "tags": [
+        "data"
+      ],
+      "categories": [],
+      "file": "2018/2018-01-21-c로-배우는-자료구조.md"
+    },
+    {
+      "slug": "2018-01-05-vi-study",
+      "title": "vi 공부",
+      "date": "2018-01-05",
+      "year": 2018,
+      "tags": [
+        "git"
+      ],
+      "categories": [],
+      "file": "2018/2018-01-05-vi-study.md"
+    },
+    {
+      "slug": "2017-07-23-fuse-rotating-sidebar",
+      "title": "Fuse- Rotating Sidebar",
+      "date": "2017-07-23",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-07-23-fuse-rotating-sidebar.md"
+    },
+    {
+      "slug": "2017-07-22-fuse-image-basics",
+      "title": "Fuse- Image Basics",
+      "date": "2017-07-22",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-07-22-fuse-image-basics.md"
+    },
+    {
+      "slug": "2017-07-21-fuse-triggers-and-animators",
+      "title": "Fuse- Triggers and Animation",
+      "date": "2017-07-21",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-07-21-fuse-triggers-and-animators.md"
+    },
+    {
+      "slug": "2017-07-20-fuse-layout",
+      "title": "Fuse - Layout Basics",
+      "date": "2017-07-20",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-07-20-fuse-layout.md"
+    },
+    {
+      "slug": "2017-06-28-rails-nokogiri",
+      "title": "rails nokogiri gem 활용하기",
+      "date": "2017-06-28",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-06-28-rails-nokogiri.md"
+    },
+    {
+      "slug": "2017-06-23-css-선택자-올림픽",
+      "title": "멋사-보조강의-CSS선택자올림픽",
+      "date": "2017-06-23",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-06-23-css-선택자-올림픽.md"
+    },
+    {
+      "slug": "2017-06-23-부트스트랩",
+      "title": "멋사-보조강의-부트스트랩",
+      "date": "2017-06-23",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-06-23-부트스트랩.md"
+    },
+    {
+      "slug": "2017-05-21-form",
+      "title": "Form",
+      "date": "2017-05-21",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-05-21-form.md"
+    },
+    {
+      "slug": "2017-05-21-mvc-패턴이해",
+      "title": "MVC 패턴의 이해",
+      "date": "2017-05-21",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-05-21-mvc-패턴이해.md"
+    },
+    {
+      "slug": "2017-05-21-flex반응형",
+      "title": "멋쟁이사자처럼 - flex",
+      "date": "2017-05-21",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-05-21-flex반응형.md"
+    },
+    {
+      "slug": "2017-05-21-멋사css",
+      "title": "멋사 보조강의 -css",
+      "date": "2017-05-21",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-05-21-멋사css.md"
+    },
+    {
+      "slug": "2017-05-09-html",
+      "title": "멋사 보조강의 - HTML",
+      "date": "2017-05-09",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-05-09-html.md"
+    },
+    {
+      "slug": "2017-05-09-첫-포스트-깃헙블로그-생성하기",
+      "title": "깃헙블로그 생성",
+      "date": "2017-05-09",
+      "year": 2017,
+      "tags": [
+        "web"
+      ],
+      "categories": [],
+      "file": "2017/2017-05-09-첫-포스트-깃헙블로그-생성하기.md"
+    }
+  ]
+}

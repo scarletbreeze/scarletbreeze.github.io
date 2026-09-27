@@ -2,7 +2,8 @@
 
 ## 스택
 - **Vite 8 + React 19 + TypeScript 6** — 정적 SPA
-- **react-router-dom 7** — 클라이언트 라우팅 (유일한 추가 의존성)
+- **react-router-dom 7** — 클라이언트 라우팅
+- **marked** — 저장소 내부 Markdown 렌더링 (archive)
 - **CSS + 디자인 토큰** — 프레임워크 없음
 - **GitHub Pages** — GitHub Actions로 `main` push 시 자동 배포
 
@@ -13,6 +14,8 @@
 /projects/:slug            프로젝트 상세 (registry에서 slug로 컴포넌트 조회)
    hero-lab | voc-studio | broker-atlas | time-machine | broker-tycoon
 /research  /notes  /blog   콘텐츠 섹션 (초기 Placeholder)
+/archive                   옛 블로그(2017–2019) 연도별 목록
+/archive/:slug             옛 글 본문 (Markdown lazy load)
 /about
 *                          NotFound
 ```
@@ -31,7 +34,8 @@
 | `src/types/` | 공용 타입. `data/*.json`의 스키마와 1:1 |
 | `src/styles/tokens.css` | 색·간격·글꼴 토큰. 컴포넌트 CSS는 토큰만 참조 |
 | `data/` | JSON/CSV. `@data/*` alias로 import |
-| `content/` | Markdown. 현재는 비어 있음 — 렌더링은 콘텐츠가 생길 때 결정 |
+| `content/archive/<year>/` | 이관된 옛 글. `import.meta.glob` raw + `marked`로 렌더링 |
+| `content/posts|notes|research/` | 새 글 (아직 비어 있음). archive와 같은 방식으로 렌더링 예정 |
 
 ## 데이터 흐름
 ```
